@@ -180,4 +180,45 @@ a {
 button:hover, a:hover {
   opacity: 0.7;
 }
+/* Base Navigation Styles */
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap; /* allows items to wrap instead of hiding */
+}
+
+.navigation a {
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 30px 40px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.navigation a:hover {
+    background-color: #01458e;
+    color: white;
+}
+
+.navigation a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column; /* stack links vertically */
+    }
+
+    .navigation a {
+        padding: 15px 20px; /* smaller padding for phones */
+        text-align: center;  /* center text for better look */
+    }
+}
+
 </style>
