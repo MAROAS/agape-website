@@ -10,138 +10,151 @@
     <header class="header">
         <img class="logo" src="Agape LOGO.jpeg" alt="AGAPE Church Logo">
         <h1>AGAPE Church</h1>
-        <p>Home of all those who love Jesus Christ and His teaching</p>
+        <p id="homeText">Home of all those who love Jesus Christ and His teaching</p>
+
+<br>
+<br>
+<h4>Swahili and French Speakers, Select Your Language:</h4>
+<select id="languageSelector" class="languageSelector" aria-label="Select Language">
+    <option value="en">English</option>
+    <option value="fr">French</option>
+    <option value="sw">Swahili</option>
+  
+</select>
+
     </header>
 
     <nav class="navigation">
-        <a href="home.html">Home</a>
-        <a href="ministry.html">About Us</a>
-        <a href="pastors.html">Pastors</a>
-        <a href="youth.html">ACY - Agape Youth</a> 
-        <a href="time.html">Service Times</a>
-        <a href="choir.html">Choir</a>
-        <a href="events.html">Events</a>
+        <a href="home.html" id="homeLink">Home</a>
+        <a href="ministry.html" id="aboutUsLink">About Us</a>
+        <a href="pastors.html" id="pastorsLink">Pastors</a>
+        <a href="youth.html" id="youthLink">ACY - Agape Youth</a> 
+        <a href="time.html" id="serviceTimesLink">Service Times</a>
+        <a href="choir.html" id="choirLink">Choir</a>
+        <a href="events.html" id="eventsLink">Events</a>
     </nav>
 
     <div class="container">
         <div class="row">
             <div class="column side">
                 <div class="card">
-                    <h2>Our Pastors</h2>
-                    <p>Our church is blessed with dedicated pastors including our senior pastor, Pastor David Mwenda Ulieli.</p>
-                    <a href="pastor.html" class="btn">Meet Our Senior Pastor</a>
+
+                    <h2 id="pastorsTitle">Our Pastors</h2>
+                    <p id="ourChurch">Our church is blessed with dedicated pastors including our senior pastor, Pastor David Mwenda Ulieli.</p>
+                    <a href="pastor.html" class="btn" id="MeetourSeniorPastor">Meet Our Senior Pastor</a>
+                
                 </div>
             </div>
 
             <div class="column middle">
                 <div class="card">
-                    <h2>The Love of Christ</h2>
-                    <p>
+                    <h2 id="loveOfChristTitle">The Love of Christ</h2>
+                    <p id="belovedMessage">
                         Beloved, wasting time in the world will not help you. Life is too short - all you need to do is follow Jesus Christ to be saved.
                     </p>
-                    <p>
+                    <p id="manyPeople">
                         Many people were like you and did not know what kept them so long from turning their lives to God. 
                         When they found the truth about Jesus, they all came quickly and gave their souls to God.
                     </p>
-                    <p><strong>Please do not waste any more time.</strong></p>
+                    <p id="pleaseDoNotWaste"><strong>Please do not waste any more time.</strong></p>
                 </div>
             </div>
 
             <div class="column side">
                 <div class="card">
-                    <h2>After This World</h2>
-                    <p>
+                    <h2 id="afterThisWorldTitle">After This World</h2>
+                    <p id="oneDay">
                         One day everyone will die, but the question is: after you have died, where will you go?
                     </p>
-                    <p>
+                    <p id="chooseNow">
                         You need to choose now - either you need eternal life or you choose to go to hell.
                     </p>
-                    <a href="ministry.html" class="btn btn-primary">Learn More About Salvation</a>
+                    <a href="ministry.html" class="btn btn-primary " id="learnMoreAboutSalvationLink">Learn More About Salvation</a>
                 </div>
             </div>
         </div>
 
-        <section class="content-section">
-            <h2>Our Leadership Team</h2>
+        <section class="content-section" id="leadershipTeamSection">
+            <h2 id="ourLeadershipTeamTitle">Our Leadership Team</h2>
             <div class="pastors-grid">
                 <div class="pastor-card senior-pastor-highlight">
-                    <div class="pastor-badge senior-badge">Senior Pastor</div>
+                    <div class="pastor-badge senior-badge" id="seniorPastorBadge">Senior Pastor</div>
                     <div class="pastor-image-container">
                         <img class="pastor-image" src="Lubunga.jpeg" alt="Pastor Edouard Lubunga - Senior Pastor" style="width: 150px; height: 200px;">
                     </div>
                     <div class="text-center">
-                        <h3 class="pastor-name">Pastor Edouard Lubunga</h3>
+                        <h3 class="pastor-name" id="seniorPastorName">Pastor Edouard Lubunga</h3>
                         <p><strong>Senior Pastor</strong></p>
-                        <p>Leading our congregation with wisdom, love, and dedication to God's Word.</p>
-                        <a href="pastor.html" class="btn">Contact Pastor</a>
+                        <p id="seniorPastorDescription">Leading our congregation with wisdom, love, and dedication to God's Word.</p>
+                        <a href="pastor.html" class="btn" id="contactSeniorPastorButton">Contact Pastor</a>
                     </div>
                 </div>
                 
                 <div class="pastor-card">
-                    <div class="pastor-badge">Associate Pastor</div>
+                    <div class="pastor-badge" id="associatePastorBadge">Associate Pastor</div>
                     <div class="pastor-image-container">
                         <img class="pastor-image" src="Ulieli.jpg" alt="Pastor David Mwenda Ulieli" style="width: 150px; height: 200px;">
                     </div>
                     <div class="text-center">
                         <h3 class="pastor-name">David Mwenda Ulieli</h3>
                         <p><strong>Associate Pastor</strong></p>
-                        <p>Serving in ministry, preaching, and pastoral care with years of experience.</p>
-                        <a href="pastor.html" class="btn">Contact Pastor</a>
+                        <p id="associatePastorDescription">Serving in ministry, preaching, and pastoral care with years of experience.</p>
+                        <a href="pastor.html" class="btn" id="contactAssociatePastorButton">Contact Pastor</a>
                     </div>
                 </div>
 
                 <div class="pastor-card">
-                    <div class="pastor-badge">Youth Pastor</div>
+                    <div class="pastor-badge" id="youthPastorBadge">Youth Pastor</div>
                     <div class="pastor-image-container">
                         <img class="pastor-image" src="Etoka.jpeg" alt="Pastor Etoka Malusise" style="width: 150px; height: 200px;">
                     </div>
                     <div class="text-center">
                         <h3 class="pastor-name">Etoka Malusise</h3>
                         <p><strong>Youth Pastor</strong></p>
-                        <p>Ministering to young people and families, helping them grow in faith.</p>
-                        <a href="pastor.html" class="btn">Contact Pastor</a>
+                        <p id="youthPastorDescription">Ministering to young people and families, helping them grow in faith.</p>
+                        <a href="pastor.html" class="btn" id="contactYouthPastorButton">Contact Pastor</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="content-section">
-            <h2>Our Ministries</h2>
+            <h2 id="ourMinistriesTitle">Our Ministries</h2>
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <h3>Pastoral Ministry</h3>
+                        <h3 id="pastoralMinistryTitle">Pastoral Ministry</h3>
                         <ul>
-                            <li>Preaching and teaching God's Word</li>
-                            <li>Pastoral care and counseling</li>
-                            <li>Leading worship services</li>
-                            <li>Community outreach</li>
-                            <li>Discipleship and mentoring</li>
+                            <li id="preachingAndTeaching">Preaching and teaching God's Word</li>
+                            <li id="pastoralCareAndCounseling">Pastoral care and counseling</li>
+                            <li id="leadingWorshipServices">Leading worship services</li>
+                            <li id="communityOutreach">Community outreach</li>
+                            <li id="discipleshipAndMentoring">Discipleship and mentoring</li>
                         </ul>
                     </div>
                 </div>
                 
                 <div class="column">
                     <div class="card">
-                        <h3>Church Ministries</h3>
+                        <h3 id="churchMinistriesTitle">Church Ministries</h3>
                         <ul>
-                            <li><a href="choir.html">Choir Ministry</a></li>
-                            <li>Prayer Ministry</li>
-                            <li>Youth Ministry</li>
-                            <li>Community Outreach</li>
-                            <li>Bible Study Groups</li>
+                            <li ><a href="choir.html" id="choirMinistryLink">Choir Ministry</a></li>
+                            <li id="prayerMinistry">Prayer Ministry</li>
+                            <li id="youthMinistry">Youth Ministry</li>
+                            <li id="communityOutreach">Community Outreach</li>
+                            <li id="bibleStudyGroups">Bible Study Groups</li>
                         </ul>
                     </div>
                 </div>
                 
                 <div class="column">
                     <div class="card">
-                        <h3>Special Services</h3>
+                        <h3 id="specialServicesTitle">Special Services</h3>
                         <ul>
-                            <li>Wedding ceremonies</li>                        
-                            <li>Baby dedications</li>
-                            <li>Baptism services</li>
-                            <li>Prayer and healing</li>
+                            <li id="weddingCeremonies">Wedding ceremonies</li>                        
+                            <li id="babyDedications">Baby dedications</li>
+                            <li id="baptismServices">Baptism services</li>
+                            <li id="prayerAndHealing">Prayer and healing</li>
                         </ul>
                     </div>
                 </div>
@@ -149,20 +162,20 @@
         </section>
 
         <section class="welcome-section">
-            <h2>A Message of Hope</h2>
-            <p>
+            <h2 id="messageOfHopeTitle">A Message of Hope</h2>
+            <p id="messageOfHopeDescription">
                 At AGAPE Church, we believe in the transforming power of God's love. Our pastoral team is committed to 
                 guiding you in your spiritual journey and helping you discover the abundant life that Jesus offers.
             </p>
             <div class="text-center mt-2">
-                <a href="time.html" class="btn btn-primary">Join Us for Worship</a>
-                <a href="ministry.html" class="btn btn-secondary">Learn About Our Church</a>
+                <a href="time.html" class="btn btn-primary" id="joinUsForWorshipButton">Join Us for Worship</a>
+                <a href="ministry.html" class="btn btn-secondary" id="learnAboutOurChurchButton">Learn About Our Church</a>
             </div>
         </section>
 
         <section class="content-section">
-            <h2>Spiritual Guidance</h2>
-            <p>
+            <h2 id="spiritualGuidanceTitle">Spiritual Guidance</h2>
+            <p id="spiritualGuidanceDescription">
                 Our pastors are here to provide spiritual guidance, prayer support, and biblical teaching. 
                 Whether you're seeking answers to life's questions, need prayer, or want to grow in your faith, 
                 we're here to walk alongside you on your spiritual journey.
@@ -171,35 +184,385 @@
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <h4>Biblical Teaching</h4>
-                        <p>Receive sound biblical teaching that will help you grow in your understanding of God's Word and His will for your life.</p>
+                        <h4 id="biblicalTeachingTitle">Biblical Teaching</h4>
+                        <p id="biblicalTeachingDescription">Receive sound biblical teaching that will help you grow in your understanding of God's Word and His will for your life.</p>
                     </div>
                 </div>
                 
                 <div class="column">
                     <div class="card">
-                        <h4>Prayer Support</h4>
-                        <p>Our pastoral team is committed to praying for our congregation and providing prayer support during difficult times.</p>
+                        <h4 id="prayerSupportTitle">Prayer Support</h4>
+                        <p id="prayerSupportDescription">Our pastoral team is committed to praying for our congregation and providing prayer support during difficult times.</p>
                     </div>
                 </div>
                 
                 <div class="column">
                     <div class="card">
-                        <h4>Counseling</h4>
-                        <p>Receive pastoral counseling and guidance based on biblical principles for life's challenges and decisions.</p>
+                        <h4 id="counselingTitle">Counseling</h4>
+                        <p id="counselingDescription">Receive pastoral counseling and guidance based on biblical principles for life's challenges and decisions.</p>
                     </div>
                 </div>
             </div>
         </section>
     </div>
 
+<form 
+    action="https://formsubmit.co/selsogroup@gmail.com"
+    method="POST"
+    enctype="multipart/form-data"
+    class="contact-form"
+    id="contactForm"
+>
+    <h2 id="contactTitle">Contact Us or Become a Member</h2>
+    <p id="contactSubtitle">Fill out the form below</p>
+
+    <!-- Name -->
+    <div class="form-group">
+        <label for="name" id="nameLabel">Name</label>
+        <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Enter your full name" 
+            required
+        >
+    </div>
+
+    <!-- Email -->
+    <div class="form-group">
+        <label for="email" id="emailLabel">Email</label>
+        <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="example@email.com" 
+            required
+        >
+    </div>
+
+    <!-- Message -->
+    <div class="form-group">
+        <label for="message" id="messageLabel">Message</label>
+        <textarea 
+            id="message" 
+            name="message" 
+            rows="5" 
+            placeholder="Write your message here..." 
+            required
+        ></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn-primary" id="sendMessageButton">
+        Send Message
+    </button>
+
+    <!-- FormSubmit Hidden Settings -->
+    <input type="hidden" name="_subject" value="New submission from AGAPE Church Website">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+
+    <!-- Redirect to thank-you page -->
+    <input type="hidden" name="_next" value="https://www.agapechurchqld.com/thankyou.html">
+
+    <!-- Anti-spam honeypot -->
+    <input type="text" name="_honey" style="display:none">
+
+    <!-- Optional blacklist -->
+    <input type="hidden" name="_blacklist" value="spam, scam, fake, bot">
+
+    <!-- Auto-response email -->
+    <input 
+        type="hidden" 
+        name="_autoresponse" 
+        value="Thank you for contacting AGAPE Church! We have received your message and will get back to you as soon as possible. Blessings!"
+    >
+</form>
+
+<div id="loadingOverlay">
+    <div class="loader"></div>
+</div>
+
+
+
     <footer class="footer">
-        <h5>The Love of GOD to His People</h5>
-        <p>It is enormous!</p>
+        <h5 id="loveOfGodTitle">The Love of GOD to His People</h5>
+        <p id="loveOfGodDescription">It is enormous!</p>
         <p>© 2025 AGAPE Church. All rights reserved.</p>
-        <div class="author">
-            Web Developer: Asende Maleunda ✉ ✍
+        <div class="author" id="webDeveloper">
+                    _______
+            Maleunda Dev ✉ ✍
+            _______
         </div>
     </footer>
+
+
+
+
+<script>
+const translations = {
+    en: {
+        
+        homeText: "Home of all those who love Jesus Christ and His teaching",
+        homeLink: "Home",
+        aboutUsLink: "About Us",
+        pastorsLink: "Pastors",
+        youthLink: "ACY - Agape Youth",
+        serviceTimesLink: "Service Times",
+        choirLink: "Choir",
+        eventsLink: "Events",
+        pastorsTitle: "Our Pastors",
+        ourChurch: "Our church is blessed with dedicated pastors including our senior pastor, Pastor David Mwenda Ulieli.",
+        MeetourSeniorPastor: "Meet Our Senior Pastor",
+        loveOfChristTitle: "The Love of Christ",
+        belovedMessage: "Beloved, wasting time in the world will not help you. Life is too short - all you need to do is follow Jesus Christ to be saved.",
+        manyPeople: "Many people were like you and did not know what kept them so long from turning their lives to God. When they found the truth about Jesus, they all came quickly and gave their souls to God.",
+        pleaseDoNotWaste: "Please do not waste any more time.",
+        afterThisWorldTitle: "After This World",
+        oneDay: "One day everyone will die, but the question is: after you have died, where will you go?",
+        chooseNow: "You need to choose now - either you need eternal life or you choose to go to hell.",
+        learnMoreAboutSalvationLink: "Learn More About Salvation",
+        ourLeadershipTeamTitle: "Our Leadership Team",
+        seniorPastorBadge: "Senior Pastor",
+        seniorPastorName: "Pastor Edouard Lubunga",
+        seniorPastorDescription: "Leading our congregation with wisdom, love, and dedication to God's Word.",
+        contactSeniorPastorButton: "Contact Pastor",
+        associatePastorBadge: "Associate Pastor",
+        associatePastorDescription: "Serving in ministry, preaching, and pastoral care with years of experience.",
+        contactAssociatePastorButton: "Contact Pastor",
+        youthPastorBadge: "Youth Pastor",
+        youthPastorDescription: "Ministering to young people and families, helping them grow in faith.",
+        contactYouthPastorButton: "Contact Pastor",
+        ourMinistriesTitle: "Our Ministries",
+        pastoralMinistryTitle: "Pastoral Ministry",
+        preachingAndTeaching: "Preaching and teaching God's Word",
+        pastoralCareAndCounseling: "Pastoral care and counseling",
+        leadingWorshipServices: "Leading worship services",
+        communityOutreach: "Community outreach",
+        discipleshipAndMentoring: "Discipleship and mentoring",
+        churchMinistriesTitle: "Church Ministries",
+        choirMinistryLink: "Choir Ministry",
+        prayerMinistry: "Prayer Ministry",
+        youthMinistry: "Youth Ministry",
+        communityOutreach: "Community Outreach",
+        bibleStudyGroups: "Bible Study Groups",
+        specialServicesTitle: "Special Services",
+        weddingCeremonies: "Wedding ceremonies",
+        babyDedications: "Baby dedications",
+        baptismServices: "Baptism services",
+        prayerAndHealing: "Prayer and healing",
+        messageOfHopeTitle: "A Message of Hope",
+        messageOfHopeDescription: "At AGAPE Church, we believe in the transforming power of God's love. Our pastoral team is committed to guiding you in your spiritual journey and helping you discover the abundant life that Jesus offers.",
+        joinUsForWorshipButton: "Join Us for Worship",
+        learnAboutOurChurchButton: "Learn About Our Church",
+        spiritualGuidanceTitle: "Spiritual Guidance",
+        spiritualGuidanceDescription: "Our pastors are here to provide spiritual guidance, prayer support, and biblical teaching. Whether you're seeking answers to life's questions, need prayer, or want to grow in your faith, we're here to walk alongside you on your spiritual journey.",
+        biblicalTeachingTitle: "Biblical Teaching",
+        biblicalTeachingDescription: "Receive sound biblical teaching that will help you grow in your understanding of God's Word and His will for your life.",
+        prayerSupportTitle: "Prayer Support",
+        prayerSupportDescription: "Our pastoral team is committed to praying for our congregation and providing prayer support during difficult times.",
+        counselingTitle: "Counseling",
+        counselingDescription: "Receive pastoral counseling and guidance based on biblical principles for life's challenges and decisions.",     
+        emailLabel: "Email",
+        nameLabel: "Name",
+        messageLabel: "Message",
+        contactTitle: "Contact Us or Become a Member",
+        contactSubtitle: "Fill out the form below",
+        sendMessageButton: "Send Message",
+         loveOfGodTitle: "The Love of GOD to His People",
+         loveOfGodDescription: "It is enormous!"
+
+
+    },  
+
+    fr: {
+        homeText: "Maison de tous ceux qui aiment Jésus-Christ et son enseignement",
+        homeLink: "Accueil",
+        aboutUsLink: "À propos",
+        pastorsLink: "Pasteurs",
+        youthLink: "ACY - Jeunesse Agape",
+        serviceTimesLink: "Heures des services",
+        choirLink: "Chorale",
+        eventsLink: "Événements",
+        pastorsTitle: "Nos Pasteurs",
+        ourChurch: "Notre église est bénie avec des pasteurs dévoués, y compris notre pasteur principal, Pasteur David Mwenda Ulieli.",
+        MeetourSeniorPastor: "Rencontrez notre Pasteur Principal",
+        loveOfChristTitle: "L'Amour du Christ",
+        belovedMessage: "Bien-aimé, perdre du temps dans le monde ne t'aidera pas. La vie est trop courte — tu dois suivre Jésus-Christ pour être sauvé.",
+        manyPeople: "Beaucoup de personnes étaient comme toi et ne savaient pas ce qui les retenait si longtemps loin de Dieu. Lorsqu'elles ont découvert la vérité sur Jésus, elles sont venues rapidement et ont donné leur âme à Dieu.",
+        pleaseDoNotWaste: "S'il vous plaît, ne perdez plus de temps.",
+        afterThisWorldTitle: "Après Ce Monde",
+        oneDay: "Un jour, tout le monde mourra, mais la question est : après ta mort, où iras-tu ?",
+        chooseNow: "Tu dois choisir maintenant — soit la vie éternelle, soit l'enfer.",
+        learnMoreAboutSalvationLink: "En savoir plus sur le Salut",
+        ourLeadershipTeamTitle: "Notre Équipe de Leadership",
+        seniorPastorBadge: "Pasteur Principal",
+        seniorPastorName: "Pasteur Edouard Lubunga",
+        seniorPastorDescription: "Dirige notre congrégation avec sagesse, amour et dévouement à la Parole de Dieu.",
+        contactSeniorPastorButton: "Contacter le Pasteur",
+        associatePastorBadge: "Pasteur Associé",
+        associatePastorDescription: "Servant dans le ministère, la prédication et les soins pastoraux avec des années d'expérience.",
+        contactAssociatePastorButton: "Contacter le Pasteur",
+        youthPastorBadge: "Pasteur de la Jeunesse",
+        youthPastorDescription: "Ministère auprès des jeunes et des familles, les aidant à grandir dans la foi.",
+        contactYouthPastorButton: "Contacter le Pasteur",
+        ourMinistriesTitle: "Nos Ministères",
+        pastoralMinistryTitle: "Ministère Pastoral",
+        preachingAndTeaching: "Prédication et enseignement de la Parole de Dieu",
+        pastoralCareAndCounseling: "Soins pastoraux et conseils",
+        leadingWorshipServices: "Diriger les services de culte",
+        communityOutreach: "Sensibilisation communautaire",
+        discipleshipAndMentoring: "Discipulat et mentorat",
+        churchMinistriesTitle: "Ministères de l'Église",
+        choirMinistryLink: "Ministère de la Chorale",
+        prayerMinistry: "Ministère de la Prière",
+        youthMinistry: "Ministère de la Jeunesse",
+        communityOutreach: "Sensibilisation Communautaire",
+        bibleStudyGroups: "Groupes d'Étude Biblique",
+        specialServicesTitle: "Services Spéciaux",
+        weddingCeremonies: "Cérémonies de mariage",
+        babyDedications: "Dédicaces de bébés",
+        baptismServices: "Services de baptême",
+        prayerAndHealing: "Prière et guérison",
+        messageOfHopeTitle: "Un Message d'Espoir",
+        messageOfHopeDescription: "À l'Église AGAPE, nous croyons au pouvoir transformateur de l'amour de Dieu. Notre équipe pastorale s'engage à vous guider dans votre parcours spirituel et à vous aider à découvrir la vie abondante que Jésus offre.",
+        joinUsForWorshipButton: "Rejoignez-nous pour le culte",
+        learnAboutOurChurchButton: "En savoir plus sur notre église",
+        spiritualGuidanceTitle: "Guidance Spirituelle",
+        spiritualGuidanceDescription: "Nos pasteurs sont là pour fournir une guidance spirituelle, un soutien de prière et un enseignement biblique. Que vous cherchiez des réponses aux questions de la vie, ayez besoin de prière ou souhaitiez grandir dans votre foi, nous sommes là pour vous accompagner dans votre parcours spirituel.",
+        biblicalTeachingTitle: "Enseignement Biblique",
+        biblicalTeachingDescription: "Recevez un enseignement biblique solide qui vous aidera à grandir dans votre compréhension de la Parole de Dieu et de sa volonté pour votre vie.",
+        prayerSupportTitle: "Soutien de Prière",
+        prayerSupportDescription: "Notre équipe pastorale s'engage à prier pour notre congrégation et à fournir un soutien de prière pendant les moments difficiles.",
+        counselingTitle: "Conseil",
+        counselingDescription: "Recevez des conseils pastoraux basés sur des principes bibliques pour les défis et les décisions de la vie.",
+        emailLabel: "Email",
+        nameLabel: "Nom",
+        messageLabel: "Message",
+        contactTitle: "Contactez-nous ou devenez membre",
+        contactSubtitle: "Remplissez le formulaire ci-dessous",
+        sendMessageButton: "Envoyer le message",
+        loveOfGodTitle: "L'Amour de DIEU pour Son Peuple",
+        loveOfGodDescription: "Il est énorme!"
+
+    },
+
+    sw: {
+        homeText: "Nyumba ya wote wanaompenda Yesu Kristo na mafundisho yake",
+        homeLink: "Nyumbani",
+        aboutUsLink: "Kuhusu Sisi",
+        pastorsLink: "Wachungaji",
+        youthLink: "ACY - Vijana wa Agape",
+        serviceTimesLink: "Nyakati za Ibada",
+        choirLink: "Kwaya",
+        eventsLink: "Matukio",
+        pastorsTitle: "Wachungaji Wetu",
+        ourChurch: "Kanisa letu limebarikiwa na wachungaji waliojitolea akiwemo mchungaji mkuu, Mchungaji David Mwenda Ulieli.",
+        MeetourSeniorPastor: "Kutana na Mchungaji Mkuu",
+        loveOfChristTitle: "Upendo wa Kristo",
+        belovedMessage: "Wapendwa, kupoteza muda duniani hakutakusaidia. Maisha ni mafupi — unahitaji kumfuata Yesu Kristo ili uokoke.",
+        manyPeople: "Watu wengi walikuwa kama wewe na hawakujua kilichowazuia kumgeukia Mungu. Walipopata ukweli kuhusu Yesu, walikuja haraka na kumpa Mungu roho zao.",
+        pleaseDoNotWaste: "Tafadhali usipoteze muda tena.",
+        afterThisWorldTitle: "Baada ya Dunia Hii",
+        oneDay: "Siku moja kila mtu atakufa, lakini swali ni: baada ya kufa, utaenda wapi?",
+        chooseNow: "Chagua sasa — uzima wa milele au jehanamu.",
+        learnMoreAboutSalvationLink: "Jifunze Zaidi Kuhusu Wokovu",
+        ourLeadershipTeamTitle: "Timu Yetu ya Uongozi",
+        seniorPastorBadge: "Mchungaji Mkuu",
+        seniorPastorName: "Mchungaji Edouard Lubunga",
+        seniorPastorDescription: "Anaiongoza kanisa letu kwa hekima, upendo, na kujitolea kwa Neno la Mungu.",
+        contactSeniorPastorButton: "Wasiliana na Mchungaji",
+        associatePastorBadge: "Mchungaji Msaidizi",
+        associatePastorDescription: "Anahudumu katika huduma, kuhubiri, na huduma ya kichungaji kwa miaka mingi ya uzoefu.",
+        contactAssociatePastorButton: "Wasiliana na Mchungaji",
+        youthPastorBadge: "Mchungaji wa Vijana",
+        youthPastorDescription: "Anahudumia vijana na familia, kuwasaidia kukua katika imani.",
+        contactYouthPastorButton: "Wasiliana na Mchungaji",
+        ourMinistriesTitle: "Huduma Zetu",
+        pastoralMinistryTitle: "Huduma ya Kichungaji",
+        preachingAndTeaching: "Kuhubiri na kufundisha Neno la Mungu",
+        pastoralCareAndCounseling: "Huduma ya kichungaji na ushauri",
+        leadingWorshipServices: "Kuongoza ibada",
+        communityOutreach: "Kufikia jamii",
+        discipleshipAndMentoring: "Ukombozi na uongozi",
+        churchMinistriesTitle: "Huduma za Kanisa",
+        choirMinistryLink: "Huduma ya Kwaya",
+        prayerMinistry: "Huduma ya Maombi",
+        youthMinistry: "Huduma ya Vijana",
+        communityOutreach: "Kufikia Jamii",
+        bibleStudyGroups: "Vikundi vya Masomo ya Biblia",
+        specialServicesTitle: "Huduma Maalum",
+        weddingCeremonies: "Sherehe za Ndoa",
+        babyDedications: "Kudumisha Watoto",
+        baptismServices: "Huduma za Ubautizo",
+        prayerAndHealing: "Maombi na Uponyaji",
+        messageOfHopeTitle: "Ujumbe wa Matumaini",
+        messageOfHopeDescription: "Katika Kanisa la AGAPE, tunaamini katika nguvu ya kubadilisha ya upendo wa Mungu. Timu yetu ya wachungaji imejitolea kukuongoza katika safari yako ya kiroho na kukusaidia kugundua maisha tele ambayo Yesu anatoa.",
+        joinUsForWorshipButton: "Jiunge Nasi kwa Ibada",
+        learnAboutOurChurchButton: "Jifunze Zaidi Kuhusu Kanisa Letu",
+        spiritualGuidanceTitle: "Mwongozo wa Kiroho",
+        spiritualGuidanceDescription: "Wachungaji wetu wako hapa kutoa mwongozo wa kiroho, msaada wa maombi, na mafundisho ya kibiblia. Iwapo unatafuta majibu ya maswali ya maisha, unahitaji maombi, au unataka kukua katika imani, tuko hapa kukutembea katika safari yako ya kiroho.",
+        biblicalTeachingTitle: "Mafundisho ya Kibiblia",
+        biblicalTeachingDescription: "Pokea mafundisho ya kibiblia thabiti ambayo itakusaidia kukua katika uelewa wako wa Neno la Mungu na mapenzi yake kwa maisha yako.",
+        prayerSupportTitle: "Msaada wa Maombi",
+        prayerSupportDescription: "Timu yetu ya wachungaji imejitolea kuombea kanisa letu na kutoa msaada wa maombi wakati wa nyakati ngumu.",
+        counselingTitle: "Ushauri",
+        counselingDescription: "Pokea ushauri wa kichungaji na mwongozo unaotegemea kanuni za kibiblia kwa changamoto na maamuzi ya maisha.",
+        emailLabel: "Barua pepe",
+        nameLabel: "Jina",
+        messageLabel: "Ujumbe",
+        contactTitle: "Wasiliana Nasi au Uwe Mwana Chama",
+        contactSubtitle: "Jaza fomu hapa chini",
+        sendMessageButton: "Tuma Ujumbe",
+        loveOfGodTitle: "Upendo wa MUNGU kwa Watu Wake",
+        loveOfGodDescription: "Ni mkubwa sana!"
+        
+    },
+
+    
+};
+
+function applyLanguage(lang) {
+    for (const id in translations[lang]) {
+        const element = document.getElementById(id);
+        if (element) element.textContent = translations[lang][id];
+    }
+}
+
+// Show loading overlay when form is submitted
+const form = document.getElementById("contactForm");
+if (form) {
+    form.addEventListener("submit", function() {
+        const overlay = document.getElementById("loadingOverlay");
+        if (overlay) overlay.style.display = "flex";
+    });
+}
+
+// Language selector logic
+const selector = document.getElementById("languageSelector");
+if (selector) {
+    selector.addEventListener("change", function () {
+        const lang = this.value;
+        const langName = this.options[this.selectedIndex].text;
+
+        if (confirm("Change language to " + langName + "?")) {
+            localStorage.setItem("siteLanguage", lang);
+            applyLanguage(lang);
+        } else {
+            this.value = localStorage.getItem("siteLanguage") || "en";
+        }
+    });
+}
+
+// Load saved language on page load
+window.onload = function () {
+    const saved = localStorage.getItem("siteLanguage") || "en";
+    if (selector) selector.value = saved;
+    applyLanguage(saved);
+};
+</script>
+
+
+
 </body>
 </html>
