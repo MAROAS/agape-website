@@ -31,11 +31,89 @@
 
     </nav>
 
+        <br>
+  
+
+    
+    
+<form 
+    action="https://formsubmit.co/selsogroup@gmail.com"
+    method="POST"
+    enctype="multipart/form-data"
+    class="contact-form"
+    id="contactForm"
+>
+    <h2 id="contactTitle">Contact Us </h2>
+    <p id="contactSubtitle">Fill out the form below</p>
+
+    <!-- Name -->
+    <div class="form-group">
+        <label for="name" id="nameLabel">Name</label>
+        <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Enter your full name" 
+            required
+        >
+    </div>
+
+    <!-- Email -->
+    <div class="form-group">
+        <label for="email" id="emailLabel">Email</label>
+        <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="example@email.com" 
+            required
+        >
+    </div>
+
+    <!-- Message -->
+    <div class="form-group">
+        <label for="message" id="messageLabel">Message</label>
+        <textarea 
+            id="message" 
+            name="message" 
+            rows="5" 
+            placeholder="Write your message here..." 
+            required
+        ></textarea>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn-primary" id="sendMessageButton">
+        Send Message
+    </button>
+
+    <!-- FormSubmit Hidden Settings -->
+    <input type="hidden" name="_subject" value="New submission from AGAPE Church Website">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+
+    <!-- Redirect to thank-you page -->
+    <input type="hidden" name="_next" value="https://www.agapechurchqld.com/thankyou.html">
+
+    <!-- Anti-spam honeypot -->
+    <input type="text" name="_honey" style="display:none">
+
+    <!-- Optional blacklist -->
+    <input type="hidden" name="_blacklist" value="spam, scam, fake, bot">
+
+    <!-- Auto-response email -->
+    <input 
+        type="hidden" 
+        name="_autoresponse" 
+        value="Thank you for contacting AGAPE Church! We have received your message and will get back to you as soon as possible. Blessings!"
+    >
+</form>
+
+
     <div class="container">
         <section class="content-section text-center">
             <h2 id="meetOurPastoralTeam">Meet Our Pastoral Team</h2>
             <br>
-            <h3 id="pastoralTeamEmail">selsogroup@gmail.com</h3>
             <p id="blessedWithMinisters">We are blessed to have dedicated ministers of God filled with wisdom</p>
             <p id="shepherdsMessage">Here are the shepherds who serve AGAPE Church QLD Australia with love and dedication</p>
         </section>
@@ -116,9 +194,6 @@
         </div>
 
         <section class="content-section" id="contact">
-            <h2 id="contactInformationTitle">Contact Information</h2>
-            <h3 id="contactEmail1">Email: malusisep@gmail.com</h3>
-             <h3 id="contactEmail2">Email: selsogroup@gmail.com</h3>
             <div class="row">
                 <div class="column">
                     <div class="card">
@@ -189,7 +264,10 @@
             choir: "Choir",
             events: "Events",
             meetOurPastoralTeam: "Meet Our Pastoral Team",
-            pastoralTeamEmail: "Email: selsogroup@gmail.com",
+            contactFormTitle: "Contact Us",
+            contactFormSubtitle: "Fill out the form below",
+            sendMessageButton: "Send Message",
+            planYourVisitButton: "Plan Your Visit",
             blessedWithMinisters: "We are blessed to have dedicated ministers of God filled with wisdom",
             shepherdsMessage: "Here are the shepherds who serve AGAPE Church QLD Australia with love and dedication",
             seniorPastorTitle: "Senior Pastor",
@@ -240,7 +318,10 @@
             choir: "Chœur",
             events: "Événements",
             meetOurPastoralTeam: "Rencontrez notre équipe pastorale",
-            pastoralTeamEmail: "Email : selsogroup@gmail.com",
+            contactFormTitle: "Contactez-nous",
+            contactFormSubtitle: "Remplissez le formulaire ci-dessous",
+            sendMessageButton: "Envoyer le message",
+            planYourVisitButton: "Planifiez votre visite",
             blessedWithMinisters: "Nous sommes bénis d'avoir des ministres dévoués de Dieu remplis de sagesse",
             shepherdsMessage: "Voici les bergers qui servent l'Église AGAPE QLD Australie avec amour et dévouement",
             seniorPastorTitle: "Pasteur principal",
@@ -290,7 +371,10 @@
             choir: "Kwaya",
             events: "Matukio",
             meetOurPastoralTeam: "Kutana na Timu Yetu ya Wachungaji",
-            pastoralTeamEmail: "Barua pepe: selsogroup@gmail.com",
+           contactFormTitle: "Wasiliana Nasi",
+            contactFormSubtitle: "Jaza fomu hapa chini",
+            sendMessageButton: "Tuma Ujumbe",
+            planYourVisitButton: "Panga Ziara Yako",
             blessedWithMinisters: "Tumebarikiwa na wahudumu wa Mungu waliojaa hekima",
             shepherdsMessage: "Hawa ni wachungaji wanaohudumia Kanisa la AGAPE QLD Australia kwa upendo na kujitolea",
             seniorPastorTitle: "Mchungaji Mkuu",
