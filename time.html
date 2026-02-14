@@ -9,30 +9,35 @@
 <body>
     <header class="header">
         <img class="logo" src="Agape LOGO.jpeg" alt="AGAPE Church Logo">
-        <h1>AGAPE Church Queensland/Australia</h1>
-        <p>After this world we have <strong>HOPE of Heaven</strong></p>
+        <h1 id="AgapeChurchTitle">AGAPE Church Queensland/Australia</h1>
+        <p id="AgapeChurchSubtitle">After this world we have <strong>HOPE of Heaven</strong></p>
+    <br>
+    <br>
+
+<h4>Swahili and French Speakers, Select Your Language:</h4>
+        <select id="languageSelect" class="language-select">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="sw">Kiswahili</option>
+        </select>
     </header>
 
     <nav class="navigation">
-        <a href="home.html">Home</a>
-        <a href="ministry.html">About Us</a>
-        <a href="pastors.html">Pastors</a>
-        <a href="youth.html">ACY - Agape Youth</a> 
-        <a href="time.html">Service Times</a>
-        <a href="pastor.html">Contact</a>
-        <a href="choir.html">Choir</a>
-        <a href="events.html">Events</a>
+        <a href="home.html" id="homeLink">Home</a>
+        <a href="ministry.html" id="aboutUsLink">About Us</a>
+        <a href="pastors.html" id="pastorsLink">Pastors</a>
+
     </nav>
 
     <div class="container">
         <section class="welcome-section">
-            <h1>Welcome Visitors!</h1>
-            <p>We're so glad you're here! At AGAPE Church, we come together to worship and praise our loving God with joy and thanksgiving.</p>
+            <h1 id="welcomeVisitorsTitle">Welcome Visitors!</h1>
+            <p id="welcomeVisitorsDescription">We're so glad you're here! At AGAPE Church, we come together to worship and praise our loving God with joy and thanksgiving.</p>
         </section>
 
         <section class="content-section">
-            <h2>First Time Visiting?</h2>
-            <p>
+            <h2 id="firstTimeVisitingTitle">First Time Visiting?</h2>
+            <p id="firstTimeVisitingDescription">
                 Welcome to AGAPE Church! Whether you're visiting, exploring your faith, or searching for a church family, 
                 there's a special place for you here. If you'd like to join us for our Sunday service or are interested 
                 in becoming a member, we'd love to welcome you personally and help you get connected!
@@ -41,58 +46,58 @@
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <h4>Join a Sunday Service</h4>
-                        <p>Experience worship, fellowship, and biblical teaching in a welcoming environment.</p>
+                        <h4 id="joinSundayServiceTitle">Join a Sunday Service</h4>
+                        <p id="joinSundayServiceDescription">Experience worship, fellowship, and biblical teaching in a welcoming environment.</p>
                     </div>
                 </div>
                 
                 <div class="column">
                     <div class="card">
-                        <h4>Become a Member</h4>
-                        <p>Connect with our church family and grow in your faith journey with us.</p>
+                        <h4 id="becomeMemberTitle">Become a Member</h4>
+                        <p id="becomeMemberDescription">Connect with our church family and grow in your faith journey with us.</p>
                     </div>
                 </div>
                 
                 <div class="column">
                     <div class="card">
-                        <h4>Learn More About Us</h4>
-                        <p>Discover our mission, vision, and the heart behind AGAPE Church.</p>
-                        <a href="ministry.html" class="btn">Learn More</a>
+                        <h4 id="learnMoreAboutUsTitle">Learn More About Us</h4>
+                        <p id="learnMoreAboutUsDescription">Discover our mission, vision, and the heart behind AGAPE Church.</p>
+                        <a href="ministry.html" class="btn" id="learnMoreAboutUsButton">Learn More</a>
                     </div>
                 </div>
             </div>
 
             <div class="text-center mt-2">
-                <p>At AGAPE, we are passionate about preaching the Word of God and sharing the life-changing message of hope, love, and salvation with the world.</p>
+                <p id="passionateMessage">At AGAPE, we are passionate about preaching the Word of God and sharing the life-changing message of hope, love, and salvation with the world.</p>
             </div>
         </section>
 
         <section class="content-section">
-            <h2>Our Sunday Activities</h2>
+            <h2 id="ourSundayActivitiesTitle">Our Sunday Activities</h2>
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <h3>Church Service</h3>
+                        <h3 id="churchServiceTitle">Church Service</h3>
                         <ul>
-                            <li>Opening Prayer & Forgiveness Song</li>
-                            <li>Choir Songs & Ministry</li>
-                            <li>Praise and Worship</li>
-                            <li>Preaching Session</li>
-                            <li>Announcements</li>
-                            <li>Closing Prayer</li>
+                            <li id="openingPrayer">Opening Prayer & Forgiveness Song</li>
+                            <li id="choirSongs">Choir Songs & Ministry</li>
+                            <li id="praiseAndWorship">Praise and Worship</li>
+                            <li id="preachingSession">Preaching Session</li>
+                            <li id="announcements">Announcements</li>
+                            <li id="closingPrayer">Closing Prayer</li>
                         </ul>
                     </div>
                 </div>
                 
                 <div class="column">
                     <div class="card">
-                        <h3>After Service Fellowship</h3>
+                        <h3 id="afterServiceFellowshipTitle">After Service Fellowship</h3>
                         <ul>
-                            <li>Fellowship with church families</li>
-                            <li>Greeting one another</li>
-                            <li>Sharing refreshments together</li>
-                            <li>Building Christian relationships</li>
-                            <li>Prayer and support</li>
+                            <li id="fellowshipWithChurchFamilies">Fellowship with church families</li>
+                            <li id="greetingOneAnother">Greeting one another</li>
+                            <li id="sharingRefreshmentsTogether">Sharing refreshments together</li>
+                            <li id="buildingChristianRelationships">Building Christian relationships</li>
+                            <li id="prayerAndSupport">Prayer and support</li>
                         </ul>
                     </div>
                 </div>
@@ -105,58 +110,257 @@
                     <img class="bible-image" src="bible.jpg" alt="Holy Bible">
                 </div>
                 <div class="column middle">
-                    <h2>Experience the Presence of God</h2>
-                    <p>
+                    <h2 id="experienceThePresenceOfGodTitle">Experience the Presence of God</h2>
+                    <p id="experienceThePresenceOfGodDescription">
                         At AGAPE Church, the atmosphere is alive with the presence of the Holy Spirit. 
                         We worship together in an environment filled with love, peace, and unity, 
                         encouraging one another as we grow in faith.
                     </p>
-                    <p>
+                    <p id="experienceThePresenceOfGodInvitation">
                         With God's love filling our hearts, we warmly invite you to visit us. 
                         Come join us this Sunday and experience the transforming power of God. 
                         Your life will be uplifted, your heart will be filled with joy, and you will never be the same.
                     </p>
-                    <p><strong>You are always welcome here.</strong></p>
+                    <p id="experienceThePresenceOfGodWelcome"><strong>You are always welcome here.</strong></p>
                     
                     <div class="mt-2">
-                        <a href="pastor.html" class="btn btn-primary">Contact Us</a>
-                        <a href="ministry.html" class="btn btn-secondary">About Our Church</a>
+                        <a href="pastor.html" class="btn btn-primary" id="contactUsButton">Contact Us</a>
+                        <a href="ministry.html" class="btn btn-secondary" id="aboutOurChurchButton">About Our Church</a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="welcome-section">
-            <h2>Plan Your Visit</h2>
-            <p>
+            <h2 id="planYourVisitTitle">Plan Your Visit</h2>
+            <p id="planYourVisitDescription">
                 Please come visit our church on Sunday and experience the power of the Holy Spirit. 
                 Your life will change and you will never remain as you were. The love of God will fill 
                 your heart and you will always rejoice with the love of Almighty God.
             </p>
-            <a href="pastor.html" class="btn btn-primary">Contact Us for Directions</a>
+            <a href="pastor.html" class="btn btn-primary" id="contactUsForDirectionsButton">Contact Us for Directions</a>
         </section>
     </div>
 
     <footer class="footer">
         <div class="row">
             <div class="column">
-                <h5>Love</h5>
-                <h5>Common Goal</h5>
-                <h5>Community Organization</h5>
+                <h5 id="loveTitle">Love</h5>
+                <h5 id="commonGoalTitle">Common Goal</h5>
+                <h5 id="communityOrganizationTitle">Community Organization</h5>
             </div>
             <div class="column">
-                <h5>Life in Australia</h5>
-                <h5>Support for Members</h5>
-                <h5>Activities of Daily Living</h5>
+                <h5 id="lifeInAustraliaTitle">Life in Australia</h5>
+                <h5 id="supportForMembersTitle">Support for Members</h5>
+                <h5 id="activitiesOfDailyLivingTitle">Activities of Daily Living</h5>
             </div>
             <div class="column">
-                <h5>Love to Hear Your Story</h5>
-                <p class="text-center">2025, AGAPE Church Queensland/Australia</p>
+                <h5 id="loveToHearYourStoryTitle">Love to Hear Your Story</h5>
+                <p class="text-center" id="footerCopyright">2025, AGAPE Church Queensland/Australia</p>
             </div>
         </div>
         <div class="author">
-           Web Developer: Asende Maleunda ✉ ✍
+           Developer: Maleunda Dev  ✉ ✍
         </div>
     </footer>
+
+
+    <script>
+        const translations = {
+
+        en: {
+            AgapeChurchTitle: "AGAPE Church Queensland/Australia",
+            AgapeChurchSubtitle: "After this world we have HOPE of Heaven",
+            homeLink: "Home",
+            aboutUsLink: "About Us",
+            pastorsLink: "Pastors",
+            youthLink: "ACY - Agape Youth",
+            serviceTimesLink: "Service Times",
+            contactLink: "Contact",
+            choirLink: "Choir",
+            eventsLink: "Events",
+            welcomeVisitorsTitle: "Welcome Visitors!",
+            welcomeVisitorsDescription: "We're so glad you're here! At AGAPE Church, we come together to worship and praise our loving God with joy and thanksgiving.",
+            firstTimeVisitingTitle: "First Time Visiting?",
+            firstTimeVisitingDescription: "Welcome to AGAPE Church! Whether you're visiting, exploring your faith, or searching for a church family, there's a special place for you here. If you'd like to join us for our Sunday service or are interested in becoming a member, we'd love to welcome you personally and help you get connected!",
+            joinSundayServiceTitle: "Join a Sunday Service",
+            joinSundayServiceDescription: "Experience worship, fellowship, and biblical teaching in a welcoming environment.",
+            becomeMemberTitle: "Become a Member",
+            becomeMemberDescription: "Connect with our church family and grow in your faith journey with us.",
+            learnMoreAboutUsTitle: "Learn More About Us",
+            learnMoreAboutUsDescription: "Discover our mission, vision, and the heart behind AGAPE Church.",
+            learnMoreAboutUsButton: "Learn More",
+            passionateMessage: "At AGAPE, we are passionate about preaching the Word of God and sharing the life-changing message of hope, love, and salvation with the world.",
+            ourSundayActivitiesTitle: "Our Sunday Activities",
+            churchServiceTitle: "Church Service",
+            openingPrayer: "Opening Prayer & Forgiveness Song",
+            choirSongs: "Choir Songs & Ministry",
+            praiseAndWorship: "Praise and Worship", 
+            preachingSession: "Preaching Session",
+            announcements: "Announcements",
+            closingPrayer: "Closing Prayer",
+            afterServiceFellowshipTitle: "After Service Fellowship",
+            fellowshipWithChurchFamilies: "Fellowship with church families",
+            greetingOneAnother: "Greeting one another",
+            sharingRefreshmentsTogether: "Sharing refreshments together",
+            buildingChristianRelationships: "Building Christian relationships",
+            prayerAndSupport: "Prayer and support",
+            experienceThePresenceOfGodTitle: "Experience the Presence of God",
+            experienceThePresenceOfGodDescription: "At AGAPE Church, the atmosphere is alive with the presence of the Holy Spirit. We worship together in an environment filled with love, peace, and unity, encouraging one another as we grow in faith.",
+            experienceThePresenceOfGodInvitation: "With God's love filling our hearts, we warmly invite you to visit us. Come join us this Sunday and experience the transforming power of God. Your life will be uplifted, your heart will be filled with joy, and you will never be the same.",
+            experienceThePresenceOfGodWelcome: "You are always welcome here.",
+            planYourVisitTitle: "Plan Your Visit",
+            planYourVisitDescription: "Please come visit our church on Sunday and experience the power of the Holy Spirit. Your life will change and you will never remain as you were. The love of God will fill your heart and you will always rejoice with the love of Almighty God.",
+            contactUsForDirectionsButton: "Contact Us for Directions",
+            loveTitle: "Love",
+            commonGoalTitle: "Common Goal",
+            communityOrganizationTitle: "Community Organization",
+            lifeInAustraliaTitle: "Life in Australia",
+            supportForMembersTitle: "Support for Members",
+            activitiesOfDailyLivingTitle: "Activities of Daily Living",
+            loveToHearYourStoryTitle: "Love to Hear Your Story",
+            footerCopyright: "2025, AGAPE Church Queensland/Australia"
+        },
+
+        fr: {
+            AgapeChurchTitle: "Église AGAPE Queensland/Australie",
+            AgapeChurchSubtitle: "Après ce monde, nous avons l'ESPOIR du Ciel",
+            homeLink: "Accueil",
+            aboutUsLink: "À Propos de Nous",
+            pastorsLink: "Pasteurs",
+            youthLink: "ACY - Agape Youth",
+            serviceTimesLink: "Heures de Service",
+            contactLink: "Contact",
+            choirLink: "Chorale",
+            eventsLink: "Événements",
+            welcomeVisitorsTitle: "Bienvenue aux Visiteurs !",
+            welcomeVisitorsDescription: "Nous sommes ravis que vous soyez ici ! À l'église AGAPE, nous nous réunissons pour adorer et louer notre Dieu aimant avec joie et reconnaissance.",
+            firstTimeVisitingTitle: "Première Visite ?",
+            firstTimeVisitingDescription: "Bienvenue à l'église AGAPE ! Que vous soyez en visite, que vous exploriez votre foi ou que vous cherchiez une famille d'église, il y a une place spéciale pour vous ici. Si vous souhaitez nous rejoindre pour notre service du dimanche ou si vous êtes intéressé à devenir membre, nous serions ravis de vous accueillir personnellement et de vous aider à vous connecter !",
+            joinSundayServiceTitle: "Rejoignez un Service du Dimanche",
+            joinSundayServiceDescription: "Vivez le culte, la communion et l'enseignement biblique dans un environnement accueillant.",
+            becomeMemberTitle: "Devenez Membre",
+            becomeMemberDescription: "Connectez-vous avec notre famille d'église et grandissez dans votre parcours de foi avec nous.",
+            learnMoreAboutUsTitle: "En Savoir Plus Sur Nous",
+            learnMoreAboutUsDescription: "Découvrez notre mission, notre vision et le cœur de l'église AGAPE.",
+            learnMoreAboutUsButton: "En Savoir Plus",
+            passionateMessage: "À AGAPE, nous sommes passionnés par la prédication de la Parole de Dieu et le partage du message qui change la vie d'espoir, d'amour et de salut avec le monde.",
+            ourSundayActivitiesTitle: "Nos Activités du Dimanche",
+            churchServiceTitle: "Service de l'Église",
+            openingPrayer: "Prière d'Ouverture & Chanson de Pardon",
+            choirSongs: "Chansons de la Chorale & Ministère",
+            praiseAndWorship: "Louange et Adoration",
+            preachingSession: "Session de Prédication",
+            announcements: "Annonces",
+            closingPrayer: "Prière de Clôture",
+            afterServiceFellowshipTitle: "Communion Après le Service",
+            fellowshipWithChurchFamilies: "Communion avec les familles de l'église",
+            greetingOneAnother: "Saluer les uns les autres",
+            sharingRefreshmentsTogether: "Partager des rafraîchissements ensemble",
+            buildingChristianRelationships: "Construire des relations chrétiennes",
+            prayerAndSupport: "Prière et soutien",
+            experienceThePresenceOfGodTitle: "Expérimentez la Présence de Dieu",
+            experienceThePresenceOfGodDescription: "À l'église AGAPE, l'atmosphère est vivante avec la présence du Saint-Esprit. Nous adorons ensemble dans un environnement rempli d'amour, de paix et d'unité, nous encourageant les uns les autres à grandir dans la foi.",
+            experienceThePresenceOfGodInvitation: "Avec l'amour de Dieu remplissant nos cœurs, nous vous invitons chaleureusement à nous rendre visite. Venez nous rejoindre ce dimanche et expérimentez le pouvoir transformateur de Dieu. Votre vie sera élevée, votre cœur sera rempli de joie, et vous ne serez plus jamais le même.",
+            experienceThePresenceOfGodWelcome: "Vous êtes toujours les bienvenus ici.",
+            planYourVisitTitle: "Planifiez Votre Visite",
+            planYourVisitDescription: "Veuillez venir visiter notre église le dimanche et expérimenter le pouvoir du Saint-Esprit. Votre vie changera et vous ne resterez jamais comme vous étiez. L'amour de Dieu remplira votre cœur et vous vous réjouirez toujours de l'amour du Dieu Tout-Puissant.",
+            contactUsForDirectionsButton: "Contactez-nous pour les Directions",
+            loveTitle: "Amour",
+            commonGoalTitle: "Objectif Commun",
+            communityOrganizationTitle: "Organisation Communautaire",
+            lifeInAustraliaTitle: "La Vie en Australie",
+            supportForMembersTitle: "Soutien pour les Membres",
+            activitiesOfDailyLivingTitle: "Activités de la Vie Quotidienne",
+            loveToHearYourStoryTitle: "Nous Aimons Entendre Votre Histoire",
+            footerCopyright: "2025, Église AGAPE Queensland/Australie"
+        },
+
+        sw: {
+            AgapeChurchTitle: "Kanisa la AGAPE Queensland/Australia",
+            AgapeChurchSubtitle: "Baada ya dunia hii tuna MATUMAINI ya Mbingu",
+            homeLink: "Nyumbani",
+            aboutUsLink: "Kuhusu Sisi",
+            pastorsLink: "Mabishara",
+            youthLink: "ACY - Agape Youth",
+            serviceTimesLink: "Muda wa Huduma",
+            contactLink: "Mawasiliano",
+            choirLink: "Kwaya",
+            eventsLink: "Matukio",
+            welcomeVisitorsTitle: "Karibu Wageni!",
+            welcomeVisitorsDescription: "Tunafurahi sana kuwa hapa! Katika Kanisa la AGAPE, tunakusanyika pamoja kuabudu na kumshukuru Mungu wetu mwenye upendo kwa furaha na shukrani.",
+            firstTimeVisitingTitle: "Unatembelea kwa Mara ya Kwanza?",
+            firstTimeVisitingDescription: "Karibu Kanisa la AGAPE! Iwe unatembelea, kuchunguza imani yako, au kutafuta familia ya kanisa, kuna nafasi maalum kwako hapa. Ikiwa ungependa kujiunga nasi kwa huduma yetu ya Jumapili au una nia ya kuwa mwanachama, tungependa kukukaribisha kibinafsi na kukusaidia kuungana!",
+            joinSundayServiceTitle: "Jiunge na Huduma ya Jumapili",
+            joinSundayServiceDescription: "Pata uzoefu wa ibada, ushirika, na mafundisho ya kibiblia katika mazingira ya kukaribisha.",
+            becomeMemberTitle: "Kuwa Mwanachama",
+            becomeMemberDescription: "Ungana na familia yetu ya kanisa na ukuaji katika safari yako ya imani pamoja nasi.",
+            learnMoreAboutUsTitle: "Jifunze Zaidi Kuhusu Sisi",
+            learnMoreAboutUsDescription: "Gundua dhamira yetu, maono, na moyo wa Kanisa la AGAPE.",
+            learnMoreAboutUsButton: "Jifunze Zaidi",
+            passionateMessage: "Katika AGAPE, tunapenda sana kuhubiri Neno la Mungu na kushiriki ujumbe unaobadilisha maisha wa matumaini, upendo, na wokovu na dunia.",
+            ourSundayActivitiesTitle: "Shughuli Zetu za Jumapili",
+            churchServiceTitle: "Huduma ya Kanisa",
+            openingPrayer: "Sala ya Ufunguzi & Wimbo wa Msamaha",
+            choirSongs: "Nyimbo za Kwaya & Huduma",
+            praiseAndWorship: "Sifa na Ibada",
+            preachingSession: "Kikao cha Kuhubiri",
+            announcements: "Matangazo",
+            closingPrayer: "Sala ya Kufunga",
+            afterServiceFellowshipTitle: "Ushirika Baada ya Huduma",
+            fellowshipWithChurchFamilies: "Ushirika na familia za kanisa",
+            greetingOneAnother: "Kusalimiana",
+            sharingRefreshmentsTogether: "Kushiriki vinywaji pamoja",
+            buildingChristianRelationships: "Kujenga mahusiano ya Kikristo",
+            prayerAndSupport: "Sala na msaada",
+            experienceThePresenceOfGodTitle: "Pata Uzoefu wa Uwepo wa Mungu",
+            experienceThePresenceOfGodDescription: "Katika Kanisa la AGAPE, mazingira yanaishi na uwepo wa Roho Mtakatifu. Tunakuabudu pamoja katika mazingira yaliyojaa upendo, amani, na umoja, tukihimiza kila mmoja wetu kukua katika imani.",
+            experienceThePresenceOfGodInvitation: "Kwa upendo wa Mungu ukijaza mioyo yetu, tunakualika kwa moyo mkunjufu kututembelea. Kuja jiunge nasi Jumapili hii na pata uzoefu wa nguvu ya kubadilisha ya Mungu. Maisha yako yatainuliwa, moyo wako utajazwa furaha, na hautakuwa kama ulivyokuwa tena.",
+            experienceThePresenceOfGodWelcome: "Una karibishwa kila wakati hapa.",
+            planYourVisitTitle: "Panga Ziara Yako",
+            planYourVisitDescription: "Tafadhali tembelea kanisa letu Jumapili na pata uzoefu wa nguvu ya Roho Mtakatifu. Maisha yako yatabadilika na hautakuwa kama ulivyokuwa tena. Upendo wa Mungu utajaza moyo wako na utajivunia daima upendo wa Mungu Mwenyezi.",
+            contactUsForDirectionsButton: "Wasiliana Nasi kwa Maelekezo",
+            loveTitle: "Upendo",
+            commonGoalTitle: "Lengo la Pamoja",
+            communityOrganizationTitle: "Shirika la Jamii",
+            lifeInAustraliaTitle: "Maisha nchini Australia",
+            supportForMembersTitle: "Msaada kwa Wanachama",
+            activitiesOfDailyLivingTitle: "Shughuli za Maisha ya Kila Siku",
+            loveToHearYourStoryTitle: "Tunapenda Kusikia Hadithi Yako",
+            footerCopyright: "2025, Kanisa la AGAPE Queensland/Australia"
+        }
+      };
+
+              function applyLanguage(lang) {
+        const safeLang = translations[lang] ? lang : "en";
+        for (const id in translations[safeLang]) {
+          const element = document.getElementById(id);
+          if (element) element.textContent = translations[safeLang][id];
+        }
+        return safeLang;
+      }
+
+const languageSelect = document.getElementById("languageSelect");
+
+if (languageSelect) languageSelect.addEventListener("change", function () {
+    const lang = this.value;
+    const langName = this.options[this.selectedIndex].text;
+
+    if (confirm("Change language to " + langName + "?")) {
+      const appliedLang = applyLanguage(lang);
+      localStorage.setItem("siteLanguage", appliedLang);
+      this.value = appliedLang;
+    } else {
+        this.value = localStorage.getItem("siteLanguage") || "en";
+    }
+});
+
+window.onload = function () {
+    const saved = localStorage.getItem("siteLanguage") || "en";
+    const appliedLang = applyLanguage(saved);
+    if (languageSelect) languageSelect.value = appliedLang;
+};
+  </script>
+
 </body>
 </html>

@@ -13,53 +13,59 @@
 <body>
   <header class="header">
     <img class="logo" src="Agape LOGO.jpeg" alt="AGAPE Church Logo">
-    <h1>AGAPE Youth</h1>
-    <p>Where young hearts grow, connect, and live for Jesus</p>
+    <h1 id="ACYTitle">AGAPE Youth</h1>
+    <p id="ACYSubtitle">Where young hearts grow, connect, and live for Jesus</p>
+    
+    <br>
+    <br>
+    <h4>Swahili and French Speakers, Select Your Language:</h4>
+    <select id="languageSelector" class="languageSelector" aria-label="Select Language">
+        <option value="en">English</option>
+        <option value="fr">French</option>
+        <option value="sw">Swahili</option>
+    </select>
   </header>
 
     <nav class="navigation">
-        <a href="home.html">Home</a>
-        <a href="ministry.html">About Us</a>
-        <a href="pastors.html">Pastors</a>
-        <a href="youth.html">ACY - Agape Youth</a> 
-        <a href="time.html">Service Times</a>
-        <a href="choir.html">Choir</a>
-        <a href="events.html">Events</a>
-        <a href="contact.html">Contact</a>
+        <a href="home.html" id="homeLink" >Home</a>
+        <a href="ministry.html" id="aboutUsLink">About Us</a>
+        <a href="pastors.html" id="pastorsLink">Pastors</a>
+
     </nav>
 
   <div class="container">
     <section class="hero">
-      <h2>Welcome to AC Youth!</h2>
-      <p>
+      <h2 id="welcomeToACYTitle">Welcome to ACY!</h2>
+      <p id="welcomeToACYDescription">
         We’re a vibrant community of young people passionate about following Jesus, 
         building lifelong friendships, learning new skills, and making a difference in the world. 
         Whether you’re exploring faith or already walking with Christ, you belong here.
       </p>
       <div class="text-center mt-2">
-        <a href="events.html" class="btn btn-primary">See Upcoming Events</a>
-        <a href="ministry.html" class="btn btn-secondary">Learn More</a>
+        <a href="events.html" class="btn btn-primary" id="seeUpcomingEventsButton">See Upcoming Events</a>
+        <a href="ministry.html" class="btn btn-secondary" id="learnMoreButton">Learn More</a>
       </div>
     </section>
      <section class="content-section">
             <div class="pastors-grid">
                 <!-- youth leader -->
                 <div class="pastor-card">
-                    <div class="youth-badge">Youth Leader</div>
+                    <div class="youth-badge" id="youthLeaderBadge">Youth Leader</div>
                     <div class="pastor-image-container">
-                        <div class="hover-img">
-                        <img class="pastor-image" src="Leon.jpeg" alt="Leon Simba">
+                      <div class="hover-img">
+                      <img class="pastor-image" src="Leon.jpeg" alt="Leon Simba">
 
+                    </div>
                     </div>
                     
                     <div class="text-center">
                         <h2 class="pastor-name">Leon Simba</h2>
                         <h3 class="pastor-title">Youth Leader</h3>
-                        <h4 class="pastor-church">AGAPE Church Queensland</h4>
-                        <p>Connect with youth: Learn leadership skills, make friends, learn the word of God.</p>
-                        <h4>learn: Guitar, Drums, keyboard</h3>
-                        <p> and many more</p>
-                        <span class="tooltip">You are welcome to talk about your way to join our youth group and become the member of our church, Agape!</span>
+                        <h4 class="pastor-church" id="pastorChurch">AGAPE Church Queensland</h4>
+                      <p id="connectWithYouth">Connect with youth: learn leadership skills, make friends, and learn the Word of God.</p>
+                      <h4 id="learnSkills">Learn: guitar, drums, keyboard</h4>
+                      <p id="andManyMore">and many more</p>
+                      <span class="tooltip" id="youthTooltip">You’re welcome to ask how to join our youth group and become part of the Agape church family.</span>
                     </div>
                 </div>
               </div>
@@ -73,74 +79,237 @@
             Leon is passionate about walking alongside young people, encouraging them to grow in faith, 
             and helping them discover their God‑given purpose.
           </p>
-          <a href="contact.html" class="btn">Connect with Leon</a>
+          <a href="contact.html" class="btn" id="connectWithLeonButton">Connect with Leon</a>
         </div>
       </div>
     </section>
 
     <section class="content-section">
-      <h2>What We Do</h2>
+      <h2 id="whatWeDoTitle">What We Do</h2>
       <div class="row">
         <div class="column">
           <div class="card">
-            <h3>Worship Nights</h3>
-            <p>Experience powerful worship, prayer, and teaching that will inspire and strengthen your faith.</p>
+            <h3 id="worshipNightsTitle">Worship Nights</h3>
+            <p id="worshipNightsDescription">Experience powerful worship, prayer, and teaching that will inspire and strengthen your faith.</p>
           </div>
         </div>
         <div class="column">
           <div class="card">
-            <h3>Small Groups</h3>
-            <p>Hang out with friends, dive into the Bible, and talk about real life in a safe, welcoming space.</p>
+            <h3 id="smallGroupsTitle">Small Groups</h3>
+            <p id="smallGroupsDescription">Hang out with friends, dive into the Bible, and talk about real life in a safe, welcoming space.</p>
           </div>
         </div>
         <div class="column">
           <div class="card">
-            <h3>Community Impact</h3>
-            <p>Serve together—helping our city, supporting families, and showing God’s love in action.</p>
+            <h3 id="communityImpactTitle">Community Impact</h3>
+            <p id="communityImpactDescription">Serve together—helping our city, supporting families, and showing God’s love in action.</p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="column">
           <div class="card">
-            <h3>Skills Learning</h3>
-            <p>Discover and grow talents like guitar, drums, keyboard, and more creative skills.</p>
+            <h3 id="skillsLearningTitle">Skills Learning</h3>
+            <p id="skillsLearningDescription">Discover and grow talents like guitar, drums, keyboard, and more creative skills.</p>
           </div>
         </div>
       </div>
     </section>
 
     <section class="content-section">
-      <h2>Why Join ACY?</h2>
+      <h2 id="whyJoinACYTitle">Why Join ACY?</h2>
       <ul>
-        <li>Make lifelong friends who share your faith journey</li>
-        <li>Discover your gifts and how to use them for God’s glory</li>
-        <li>Grow in confidence, purpose, and leadership</li>
-        <li>Have fun at camps, sports, and creative events</li>
+        <li id="makeFriends">Make lifelong friends who share your faith journey</li>
+        <li id="discoverGifts">Discover your gifts and how to use them for God’s glory</li>
+        <li id="growConfidence">Grow in confidence, purpose, and leadership</li>
+        <li id="haveFun">Have fun at camps, sports, and creative events</li>
       </ul>
     </section>
 
     <section class="welcome-section">
-      <h2>A Message of Hope</h2>
-      <p>
+      <h2 id="messageOfHopeTitle">A Message of Hope</h2>
+      <p id="messageOfHopeDescription">
         Life can feel overwhelming, but you don’t have to walk alone. 
-        At AC Youth, we believe Jesus brings joy, peace, and purpose. 
+        At ACY, we believe Jesus brings joy, peace, and purpose. 
         Come as you are—you’re welcome here!
       </p>
       <div class="text-center mt-2">
-        <a href="time.html" class="btn btn-primary">Join Us This Week</a>
-        <a href="events.html" class="btn btn-secondary">Check Out Youth Events</a>
+        <a href="time.html" class="btn btn-primary" id="joinUsThisWeekButton">Join Us This Week</a>
+        <a href="events.html" class="btn btn-secondary" id="checkOutYouthEventsButton">Check Out Youth Events</a>
       </div>
     </section>
   </div>
 
   <footer class="footer">
-    <h5>AGAPE Youth – Living for Jesus</h5>
-    <p>© 2025 AGAPE Church. All rights reserved.</p>
-    <div class="author">
+    <h5 id="footerTitle">AGAPE Youth – Living for Jesus</h5>
+    <p id="footerCopyright">© 2025 AGAPE Church. All rights reserved.</p>
+    <div class="author" id="footerAuthor">
      Web Developer: Asende Maleunda ✉ ✍
     </div>
   </footer>
+
+
+  <script>
+    const translations = {
+        en: {
+            ACYTitle: "AGAPE Youth",
+            ACYSubtitle: "Where young hearts grow, connect, and live for Jesus",
+            homeLink: "Home",
+            aboutUsLink: "About Us",
+            pastorsLink: "Pastors",
+            youthLink: "ACY - Agape Youth",
+            serviceTimesLink: "Service Times",
+            choirLink: "Choir",
+            eventsLink: "Events",
+            contactLink: "Contact",
+            welcomeToACYTitle: "Welcome to ACY!",
+            welcomeToACYDescription: "We’re a vibrant community of young people passionate about following Jesus, building lifelong friendships, learning new skills, and making a difference in the world. Whether you’re exploring faith or already walking with Christ, you belong here!",
+            seeUpcomingEventsButton: "See Upcoming Events",
+            learnMoreButton: "Learn More",
+            youthLeaderBadge: "Youth Leader",
+            pastorChurch: "AGAPE Church Queensland",
+            connectWithYouth: "Connect with youth: learn leadership skills, make friends, and learn the Word of God.",
+            learnSkills: "Learn: guitar, drums, keyboard",
+            andManyMore: "and many more",
+            youthTooltip: "You’re welcome to ask how to join our youth group and become part of the Agape church family.",
+            whatWeDoTitle: "What We Do",
+            worshipNightsTitle: "Worship Nights",
+            worshipNightsDescription: "Experience powerful worship, prayer, and teaching that will inspire and strengthen your faith.",
+            smallGroupsTitle: "Small Groups",
+            smallGroupsDescription: "Hang out with friends, dive into the Bible, and talk about real life in a safe, welcoming space.",
+            communityImpactTitle: "Community Impact",
+            communityImpactDescription: "Serve together—helping our city, supporting families, and showing God’s love in action.",
+            skillsLearningTitle: "Skills Learning",
+            skillsLearningDescription: "Discover and grow talents like guitar, drums, keyboard, and more creative skills.",
+            whyJoinACYTitle: "Why Join ACY?",
+            makeFriends: "Make lifelong friends who share your faith journey",
+            discoverGifts: "Discover your gifts and how to use them for God’s glory",
+            growConfidence: "Grow in confidence, purpose, and leadership",
+            haveFun: "Have fun at camps, sports, and creative events",
+            messageOfHopeTitle: "A Message of Hope",
+            messageOfHopeDescription: "Life can feel overwhelming, but you don’t have to walk alone. At ACY, we believe Jesus brings joy, peace, and purpose. Come as you are—you’re welcome here!",
+            joinUsThisWeekButton: "Join Us This Week",
+            checkOutYouthEventsButton: "Check Out Youth Events",
+            footerTitle: "AGAPE Youth – Living for Jesus",
+            footerCopyright: "© 2025 AGAPE Church. All rights reserved.",
+            footerAuthor: "Web Developer: Asende Maleunda ✉ ✍"
+        },
+        fr: {
+            ACYTitle: "Jeunesse AGAPE",
+            ACYSubtitle: "Où les jeunes cœurs grandissent, se connectent et vivent pour Jésus",
+            homeLink: "Accueil",
+            aboutUsLink: "À propos de nous",
+            pastorsLink: "Pasteurs",
+            youthLink: "Jeunesse AGAPE",
+            serviceTimesLink: "Horaires des Services",
+            choirLink: "Chorale",
+            eventsLink: "Événements",
+            contactLink: "Contact",
+            welcomeToACYTitle: "Bienvenue à la Jeunesse AGAPE !",
+            welcomeToACYDescription: "Nous sommes une communauté dynamique de jeunes passionnés par le suivi de Jésus, la construction d'amitiés durables, l'apprentissage de nouvelles compétences et le fait de faire une différence dans le monde. Que vous exploriez la foi ou que vous marchiez déjà avec Christ, vous appartenez ici !",
+            seeUpcomingEventsButton: "Voir les Événements à Venir",
+            learnMoreButton: "En Savoir Plus",
+            youthLeaderBadge: "Responsable de la Jeunesse",
+            pastorChurch: "Église AGAPE Queensland",
+            connectWithYouth: "Connectez-vous avec les jeunes : Apprenez des compétences en leadership, faites des amis, apprenez la parole de Dieu.",
+            learnSkills: "Apprenez : Guitare, Batterie, Clavier",
+            andManyMore: "et bien plus encore",
+            youthTooltip: "Vous êtes invité à parler de votre façon de rejoindre notre groupe de jeunes et de devenir membre de notre église, Agape !",
+            whatWeDoTitle: "Ce Que Nous Faisons",
+            worshipNightsTitle: "Nuits de Louange",
+            worshipNightsDescription: "Vivez une louange puissante, la prière et l'enseignement qui inspireront et renforceront votre foi.",
+            smallGroupsTitle: "Petits Groupes",
+            smallGroupsDescription: "Passez du temps avec des amis, plongez dans la Bible et parlez de la vraie vie dans un espace sûr et accueillant.",
+            communityImpactTitle: "Impact Communautaire",
+            communityImpactDescription: "Servez ensemble - aider notre ville, soutenir les familles et montrer l'amour de Dieu en action.",
+            skillsLearningTitle: "Apprentissage de Compétences",
+            skillsLearningDescription: "Découvrez et développez des talents comme la guitare, la batterie, le clavier et plus de compétences créatives.",
+            whyJoinACYTitle: "Pourquoi Rejoindre AGAPE Jeunesse ?",
+            makeFriends: "Faites des amis pour la vie qui partagent votre parcours de foi",
+            discoverGifts: "Découvrez vos dons et comment les utiliser pour la gloire de Dieu",
+            growConfidence: "Gagnez en confiance, en but et en leadership",
+            haveFun: "Amusez-vous lors de camps, de sports et d'événements créatifs",
+            messageOfHopeTitle: "Un Message d'Espoir",
+            messageOfHopeDescription: "La vie peut sembler accablante, mais vous n'avez pas à marcher seul. À AGAPE Jeunesse, nous croyons que Jésus apporte joie, paix et but. Venez comme vous êtes — vous êtes les bienvenus ici !",
+            joinUsThisWeekButton: "Rejoignez-nous cette semaine",
+            checkOutYouthEventsButton: "Découvrez les événements pour les jeunes",
+            footerTitle: "AGAPE Jeunesse – Vivre pour Jésus",
+            footerCopyright: "© 2025 Église AGAPE. Tous droits réservés.",
+            footerAuthor: "Développeur Web : Asende Maleunda ✉ ✍"
+        },
+        sw: {
+            ACYTitle: "AGAPE Vijana",
+            ACYSubtitle: "Ambapo mioyo ya vijana hukua, kuungana, na kuishi kwa Yesu",
+            homeLink: "Nyumbani",
+            aboutUsLink: "Kuhusu Sisi",
+            pastorsLink: "Wachungaji",
+            youthLink: "AGAPE Vijana",
+            serviceTimesLink: "Muda wa Huduma",
+            choirLink: "Kwaya",
+            eventsLink: "Matukio",
+            contactLink: "Mawasiliano",
+            welcomeToACYTitle: "Karibu AGAPE Vijana!",
+            welcomeToACYDescription: "Sisi ni jamii yenye nguvu ya vijana wanaopenda kumfuata Yesu, kujenga urafiki wa kudumu, kujifunza ujuzi mpya, na kufanya tofauti katika dunia. Iwe unachunguza imani au tayari unatembea na Kristo, unakubalika hapa!",
+            seeUpcomingEventsButton: "Tazama Matukio Yanayokuja",
+            learnMoreButton: "Jifunze Zaidi",
+            youthLeaderBadge: "Kiongozi wa Vijana",
+            pastorChurch: "Kanisa la AGAPE Queensland",
+            connectWithYouth: "Ungana na vijana: Jifunze ujuzi wa uongozi, pata marafiki, jifunze neno la Mungu.",
+            learnSkills: "Jifunze: Gitaa, Ngoma, Keyboard",
+            andManyMore: "na mengi zaidi",
+            youthTooltip: "Unakaribishwa kuuliza jinsi ya kujiunga na kundi letu la vijana na kuwa sehemu ya familia ya kanisa la Agape!",
+            whatWeDoTitle: "Tunachofanya",
+            worshipNightsTitle: "Usiku wa Ibada",
+            worshipNightsDescription: "Pata uzoefu wa ibada yenye nguvu, maombi, na mafundisho ambayo yatakutia moyo na kuimarisha imani yako.",
+            smallGroupsTitle: "Vikundi Vidogo",
+            smallGroupsDescription: "Kaa na marafiki, chimba ndani ya Biblia, na zungumza kuhusu maisha halisi katika nafasi salama na inayokaribisha.",
+            communityImpactTitle: "Athari ya Jamii",
+            communityImpactDescription: "Hudumu pamoja - kusaidia jiji letu, kusaidia familia, na kuonyesha upendo wa Mungu katika vitendo.",
+            skillsLearningTitle: "Kujifunza Ujuzi",
+            skillsLearningDescription: "Gundua na kukuza vipaji kama gitaa, ngoma, keyboard, na ujuzi mwingine wa ubunifu.",
+            whyJoinACYTitle: "Kwa Nini Ujiunge na AGAPE Vijana?",
+            makeFriends: "Pata marafiki wa maisha ambao wanashiriki safari yako ya imani",
+            discoverGifts: "Gundua vipaji vyako na jinsi ya kutumia kwa utukufu wa Mungu",
+            growConfidence: "Kua na kujiamini, kusudi, na uongozi",
+            haveFun: "Furahia kwenye kambi, michezo, na matukio ya ubunifu",
+            messageOfHopeTitle: "Ujumbe wa Matumaini",
+            messageOfHopeDescription: "Maisha yanaweza kuonekana kuwa magumu, lakini huna haja ya kutembea peke yako. Katika AGAPE Vijana, tunaamini Yesu huleta furaha, amani, na kusudi. Kuja kama ulivyo — unakubalika hapa!",
+            joinUsThisWeekButton: "Jiunge nasi wiki hii",
+            checkOutYouthEventsButton: "Tazama Matukio ya Vijana",
+            footerTitle: "AGAPE Vijana – Kuishi kwa Yesu",
+            footerCopyright: "© 2025 Kanisa la AGAPE. Haki zote zimehifadhiwa.",
+            footerAuthor: "Mtaalamu wa Tovuti: Asende Maleunda ✉ ✍"
+        }
+    };
+
+      function applyLanguage(lang) {
+        const safeLang = translations[lang] ? lang : "en";
+        for (const id in translations[safeLang]) {
+          const element = document.getElementById(id);
+          if (element) element.textContent = translations[safeLang][id];
+        }
+        return safeLang;
+      }
+
+document.getElementById("languageSelector").addEventListener("change", function () {
+    const lang = this.value;
+    const langName = this.options[this.selectedIndex].text;
+
+    if (confirm("Change language to " + langName + "?")) {
+      const appliedLang = applyLanguage(lang);
+      localStorage.setItem("siteLanguage", appliedLang);
+      this.value = appliedLang;
+    } else {
+        this.value = localStorage.getItem("siteLanguage") || "en";
+    }
+});
+
+window.onload = function () {
+    const saved = localStorage.getItem("siteLanguage") || "en";
+    const appliedLang = applyLanguage(saved);
+    document.getElementById("languageSelector").value = appliedLang;
+};
+  </script>
 
 </body>
 </html>
