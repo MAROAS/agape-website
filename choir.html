@@ -3,107 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AGAPE Church Choir</title>
+    <title id="AgapeChurchChoirTitle">AGAPE Church Choir</title>
     <link rel="stylesheet" href="styles.css">
+
+    
 </head>
 <body>
-    <header class="header">
-        <img class="logo" src="Agape LOGO.jpeg" alt="AGAPE Church Logo">
-        <h1>AGAPE Church Choir Ministry</h1>
-        <p>Praising God through music and worship</p>
-    </header>
+<header class="header">
+    <img class="logo" src="Agape LOGO.jpeg" alt="AGAPE Church Logo">
+    <h1 id="choirTitle">AGAPE Church Choir Ministry</h1>
+    <p id="choirSubtitle">Praising God through music and worship</p>
 
-    <nav class="navigation">
-        <a href="home.html">Home</a>
-        <a href="ministry.html">About Us</a>
-        <a href="pastors.html">Pastors</a>
-        <a href="youth.html">ACY - Agape Youth</a> 
-        <a href="time.html">Service Times</a>
-        <a href="choir.html">Choir</a>
-        <a href="events.html">Events</a>
-    </nav>
+    <br>
+    <br>
+    <h4>Swahili and French Speakers, Select Your Language:</h4>
+    <select id="languageSelector" class="languageSelector" aria-label="Select Language">
+        <option value="en">English</option>
+        <option value="fr">French</option>
+        <option value="sw">Swahili</option>
+        
+    </select>
+</header>
 
-    <div class="container">
-        <section class="choir-section">
-            <img src="bible.jpg" alt="Holy Bible" class="bible-image">
-            <h1>Join Our Choir Ministry</h1>
-            <p>Experience the joy of worship through music as we praise and glorify God together</p>
-            
-            <div class="mt-2">
-                <a href="ministry.html" class="btn btn-primary" title="Join our choir and sing praises together">
-                    Join the Choir
-                </a>
-                <a href="pastors.html" class="btn btn-secondary">
-                    Learn About Our Ministry
-                </a>
-            </div>
-        </section>
+<nav class="navigation">
+    <a href="home.html" id="homeLink">Home</a>
+    <a href="ministry.html" id="aboutUsLink">About Us</a>
+    <a href="pastors.html" id="pastorsLink">Pastors</a>
 
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <h3>Our Choir Ministry</h3>
-                    <ul>
-                        <li>Welcome to our church family</li>
-                        <li>We sing praises and worship God together</li>
-                        <li>We also preach the Word of God</li>
-                        <li>Our pastors prepare us to be ministers of God's word</li>
-                    </ul>
-                </div>
-            </div>
+ 
+</nav>
 
-            <div class="column">
-                <div class="card">
-                    <h3>What We Do</h3>
-                    <ul>
-                        <li><strong>Worship Services:</strong> Lead congregation in praise and worship</li>
-                        <li><strong>Special Events:</strong> Perform at church celebrations and ceremonies</li>
-                        <li><strong>Community Outreach:</strong> Share God's love through music</li>
-                        <li><strong>Fellowship:</strong> Build lasting friendships in Christ</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<section class="choir-section">
+    <h1 id="joinChoirTitle">Join Our Choir Ministry</h1>
+    <p id="joinChoirDescription">Experience the joy of worship through music as we praise and glorify God together</p>
 
-        <section class="content-section">
-            <h2>Why Join Our Choir?</h2>
-            <div class="row">
-                <div class="column">
-                    <h4>Spiritual Growth</h4>
-                    <p>Deepen your relationship with God through worship and service. Our choir members grow spiritually as they minister to others through music.</p>
-                </div>
-                <div class="column">
-                    <h4>Community</h4>
-                    <p>Join a loving family of believers who support and encourage one another. Form lasting friendships with fellow choir members.</p>
-                </div>
-                <div class="column">
-                    <h4>Ministry</h4>
-                    <p>Use your musical gifts to serve God and bless others. Be part of creating an atmosphere of worship and praise.</p>
-                </div>
-            </div>
-        </section>
+    <a href="ministry.html" class="btn btn-primary" id="joinChoirButton">Join the Choir</a>
+    <a href="pastors.html" class="btn btn-secondary" id="learnAboutMinistryButton">Learn About Our Ministry</a>
+</section>
 
-        <section class="content-section about-section">
-            <h2>How to Join</h2>
-            <p>Interested in joining our choir ministry? Here's how you can get started:</p>
-            <ol>
-                <li><strong>Attend a Service:</strong> Come visit us on Sunday to experience our worship firsthand</li>
-                <li><strong>Speak with Our Music Director:</strong> Express your interest in joining the choir</li>
-                <li><strong>Attend Practice:</strong> Join our weekly choir practice sessions</li>
-                <li><strong>Become Part of the Family:</strong> Start ministering with us in worship services</li>
-            </ol>
-            <p>No prior experience necessary - just a heart for worship and a desire to serve God!</p>
-            <a href="pastor.html" class="btn btn-primary">Contact Us About Joining</a>
-        </section>
-    </div>
+<h3 id="ourChoirMinistryTitle">Our Choir Ministry</h3>
+<ul>
+    <li id="welcomeFamily">Welcome to our church family</li>
+    <li id="singPraises">We sing praises and worship God together</li>
+    <li id="preachWord">We also preach the Word of God</li>
+    <li id="pastorsPrepare">Our pastors prepare us to be ministers of God's word</li>
+</ul>
 
-    <footer class="footer">
-        <h5>AGAPE Church Queensland</h5>
-        <p>Love • Faith • Community • Hope</p>
-        <p>© 2025 AGAPE Church. All rights reserved.</p>
-        <div class="author">
-            Web Developer: Asende Maleunda ✉ ✍
-        </div>
-    </footer>
+<h3 id="whatWeDoTitle">What We Do</h3>
+<ul>
+    <li id="worshipServices"><strong>Worship Services:</strong> Lead congregation in praise and worship</li>
+    <li id="specialEvents"><strong>Special Events:</strong> Perform at church celebrations and ceremonies</li>
+    <li id="communityOutreach"><strong>Community Outreach:</strong> Share God's love through music</li>
+    <li id="fellowship"><strong>Fellowship:</strong> Build lasting friendships in Christ</li>
+</ul>
+
+<h2 id="whyJoinChoirTitle">Why Join Our Choir?</h2>
+<h4 id="spiritualGrowthTitle">Spiritual Growth</h4>
+<p id="spiritualGrowthDescription">Deepen your relationship with God through worship and service...</p>
+
+<h4 id="communityTitle">Community</h4>
+<p id="communityDescription">Join a loving family of believers...</p>
+
+<h4 id="ministryTitle">Ministry</h4>
+<p id="ministryDescription">Use your musical gifts to serve God...</p>
+
+<h2 id="howToJoinTitle">How to Join</h2>
+<p id="howToJoinDescription">Interested in joining our choir ministry? Here's how you can get started:</p>
+
+<a href="pastor.html" class="btn btn-primary" id="contactUsButton">Contact Us About Joining</a>
+
+<footer class="footer">
+    <h5 id="footerTitle">AGAPE Church Queensland</h5>
+    <p id="footerSubtitle">Love • Faith • Community • Hope</p>
+    <div class="author" id="webDeveloper">Web Developer: Asende Maleunda ✉ ✍</div>
+</footer>
+
+<script>
+const translations = {
+    en: {
+        AgapeChurchChoirTitle: "AGAPE Church Choir Ministry",
+        AgapeChurchChoirSubtitle: "Praising God through music and worship",
+        homeLink: "Home",
+        aboutUsLink: "About Us",
+        pastorsLink: "Pastors",
+        youthLink: "ACY - Agape Youth",
+        serviceTimesLink: "Service Times",
+        choirLink: "Choir",
+        eventsLink: "Events",
+        joinChoirTitle: "Join Our Choir Ministry",
+        joinChoirDescription: "Experience the joy of worship through music as we praise and glorify God together",
+        joinChoirButton: "Join the Choir",
+        learnAboutMinistryButton: "Learn About Our Ministry",
+        ourChoirMinistryTitle: "Our Choir Ministry",
+        welcomeFamily: "Welcome to our church family",
+        singPraises: "We sing praises and worship God together",
+        preachWord: "We also preach the Word of God",
+        pastorsPrepare: "Our pastors prepare us to be ministers of God's word",
+        whatWeDoTitle: "What We Do",
+        worshipServices: "Worship Services: Lead congregation in praise and worship",
+        specialEvents: "Special Events: Perform at church celebrations and ceremonies",
+        communityOutreach: "Community Outreach: Share God's love through music",
+        fellowship: "Fellowship: Build lasting friendships in Christ",
+        whyJoinChoirTitle: "Why Join Our Choir?",
+        spiritualGrowthTitle: "Spiritual Growth",
+        spiritualGrowthDescription: "Deepen your relationship with God through worship and service...",
+        communityTitle: "Community",
+        communityDescription: "Join a loving family of believers...",
+        ministryTitle: "Ministry",
+        ministryDescription: "Use your musical gifts to serve God...",
+        howToJoinTitle: "How to Join",
+        howToJoinDescription: "Interested in joining our choir ministry? Here's how you can get started:",
+        contactUsButton: "Contact Us About Joining",
+        footerTitle: "AGAPE Church Queensland",
+        footerSubtitle: "Love • Faith • Community • Hope"   
+        
+
+    },  
+
+    fr: {
+        AgapeChurchChoirTitle: "Ministère de la Chorale de l'Église AGAPE",
+        AgapeChurchChoirSubtitle: "Louons Dieu à travers la musique et le culte",
+        homeLink: "Accueil",
+        aboutUsLink: "À Propos de Nous",
+        pastorsLink: "Pasteurs",
+        youthLink: "ACY - Jeunesse d'Agape",
+        serviceTimesLink: "Heures de Service",
+        choirLink: "Chorale",
+        eventsLink: "Événements",
+        joinChoirTitle: "Rejoignez Notre Ministère de la Chorale",
+        joinChoirDescription: "Vivez la joie du culte à travers la musique alors que nous louons et glorifions Dieu ensemble",
+        joinChoirButton: "Rejoignez la Chorale",
+        learnAboutMinistryButton: "En savoir plus sur notre ministère",
+        ourChoirMinistryTitle: "Notre Ministère de la Chorale",
+        welcomeFamily: "Bienvenue dans notre famille d'église",
+        singPraises: "Nous chantons des louanges et adorons Dieu ensemble",
+        preachWord: "Nous prêchons également la Parole de Dieu",
+        pastorsPrepare: "Nos pasteurs nous préparent à être des ministres de la parole de Dieu",
+        whatWeDoTitle: "Ce que Nous Faisons",
+        worshipServices: "Services de Culte : Diriger la congrégation dans la louange et l'adoration",
+        specialEvents: "Événements Spéciaux : Se produire lors de célébrations et cérémonies de l'église",
+        communityOutreach: "Sensibilisation Communautaire : Partager l'amour de Dieu à travers la musique",
+        fellowship: "Fellowship : Construire des amitiés durables en Christ",
+        whyJoinChoirTitle: "Pourquoi Rejoindre Notre Chorale ?",
+        spiritualGrowthTitle: "Croissance Spirituelle",
+        spiritualGrowthDescription: "Approfondissez votre relation avec Dieu à travers le culte et le service...",
+        communityTitle: "Communauté",
+        communityDescription: "Rejoignez une famille aimante de croyants...",
+        ministryTitle: "Ministère",
+        ministryDescription: "Utilisez vos dons musicaux pour servir Dieu...",
+        howToJoinTitle: "Comment Rejoindre",
+        howToJoinDescription: "Intéressé à rejoindre notre ministère de la chorale ? Voici comment vous pouvez commencer :",
+        contactUsButton: "Contactez-nous pour rejoindre",
+        footerTitle: "Église AGAPE Queensland",
+        footerSubtitle: "Amour • Foi • Communauté • Espoir" 
+        
+
+    },  
+
+    sw: {
+        AgapeChurchChoirTitle: "Kundi la Kwaya ya Kanisa la AGAPE",
+        AgapeChurchChoirSubtitle: "Kumsifu Mungu kupitia muziki na ibada",
+        homeLink: "Nyumbani",
+        aboutUsLink: "Kuhusu Sisi",
+        pastorsLink: "Mabishara",
+        youthLink: "ACY - Vijana wa Agape",
+        serviceTimesLink: "Muda wa Huduma",
+        choirLink: "Kwaya",
+        eventsLink: "Matukio",
+        joinChoirTitle: "Jiunge na Kundi la Kwaya",
+        joinChoirDescription: "Pata furaha ya ibada kupitia muziki tunapumsifu na kumtukuza Mungu pamoja",
+        joinChoirButton: "Jiunge na Kwaya",
+        learnAboutMinistryButton: "Jifunze Zaidi Kuhusu Huduma Yetu",
+        ourChoirMinistryTitle: "Huduma Yetu ya Kwaya",
+        welcomeFamily: "Karibu katika familia yetu ya kanisa",
+        singPraises: "Tunaimba sifa na kumwabudu Mungu pamoja",
+        preachWord: "Pia hutangaza Neno la Mungu",
+        pastorsPrepare: "Mabishara wetu hututayarisha kuwa watumishi wa neno la Mungu",
+        whatWeDoTitle: "Tunachofanya",
+        worshipServices: "Huduma za Ibada: Kuongoza umati katika sifa na ibada",
+        specialEvents: "Matukio Maalum: Kutumbuiza katika sherehe na sherehe za kanisa",
+        communityOutreach: "Kufikia Jamii: Kushiriki upendo wa Mungu kupitia muziki",
+        fellowship: "Ushirika: Kujenga urafiki wa kudumu katika Kristo",
+        whyJoinChoirTitle: "Kwa Nini Ujiunge na Kwaya Yetu?",
+        spiritualGrowthTitle: "Ukuaji wa Kiroho",
+        spiritualGrowthDescription: "Boresha uhusiano wako na Mungu kupitia ibada na huduma...",
+        communityTitle: "Jamii",
+        communityDescription: "Jiunge na familia yenye upendo ya waumini...",
+        ministryTitle: "Huduma",
+        ministryDescription: "Tumia vipaji vyako vya muziki kumtumikia Mungu...",
+        howToJoinTitle: "Jinsi ya Kujiunga",
+        howToJoinDescription: "Unavutiwa kujiunga na huduma yetu ya kwaya? Hapa ni jinsi unavyoweza kuanza:",
+        contactUsButton: "Wasiliana Nasi Kuhusu Kujiunga",
+        footerTitle: "Kanisa la AGAPE Queensland",
+        footerSubtitle: "Upendo • Imani • Jamii • Matumaini"    
+
+    },
+
+
+};
+
+function applyLanguage(lang) {
+    for (const id in translations[lang]) {
+        const element = document.getElementById(id);
+        if (element) element.textContent = translations[lang][id];
+    }
+}
+
+document.getElementById("languageSelector").addEventListener("change", function () {
+    const lang = this.value;
+    const langName = this.options[this.selectedIndex].text;
+
+    if (confirm("Change language to " + langName + "?")) {
+        localStorage.setItem("siteLanguage", lang);
+        applyLanguage(lang);
+    } else {
+        this.value = localStorage.getItem("siteLanguage") || "en";
+    }
+});
+
+window.onload = function () {
+    const saved = localStorage.getItem("siteLanguage") || "en";
+    document.getElementById("languageSelector").value = saved;
+    applyLanguage(saved);
+};
+</script>
+
+
 </body>
 </html>

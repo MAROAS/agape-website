@@ -13,8 +13,17 @@
 <body>
     <header class="header">
         <img class="logo" src="Agape LOGO.jpeg" alt="AGAPE Church Logo">
-        <h1>AGAPE Church Events</h1>
-        <p>Celebrating faith, fellowship, and community together</p>
+        <h1 id="AgapeChurchYouthTitle">AGAPE Church Events</h1>
+        <p id="AgapeChurchYouthDescription">Celebrating faith, fellowship, and community together</p>
+
+        <br>
+        <br>
+    <h4>Swahili and French Speakers, Select Your Language:</h4>
+        <select id="languageSelector" class="languageSelector" aria-label="Select Language">
+            <option value="en">English</option>
+            <option value="sw">Swahili</option>
+            <option value="fr">French</option>
+        </select>
     </header>
         <nav class="navigation">
         <a href="youth.html">ACY - Agape Youth</a> 
@@ -22,75 +31,190 @@
 
     </nav>
     <br>
-    <h2> Youth Leader </h2>
-    <p class="youth-group">Welcome to Agape Church Youth Croup</p>
+    <h2 id="youthLeaderTitle"> Youth Leader </h2>
+    <p id="youthGroupDescription" class="youth-group">Welcome to Agape Church Youth Croup</p>
  
- <h4 class="email">Email: simbanundaleon11@gmail.com</h4>
+ <h4 id="youthLeaderEmail" class="email">Email: simbanundaleon11@gmail.com</h4>
 
 <br>
 
      <section class="content-section">
-      <h2>What We Do</h2>
+      <h2 id="whatWeDoTitle">What We Do</h2>
       <div class="row">
         <div class="column">
           <div class="card">
-            <h3>Worship Nights</h3>
-            <p>Experience powerful worship, prayer, and teaching that will inspire and strengthen your faith.</p>
+            <h3 id="worshipNightsTitle">Worship Nights</h3>
+            <p id="worshipNightsDescription">Experience powerful worship, prayer, and teaching that will inspire and strengthen your faith.</p>
           </div>
         </div>
         <div class="column">
           <div class="card">
-            <h3>Small Groups</h3>
-            <p>Hang out with friends, dive into the Bible, and talk about real life in a safe, welcoming space.</p>
+            <h3 id="smallGroupsTitle">Small Groups</h3>
+            <p id="smallGroupsDescription">Hang out with friends, dive into the Bible, and talk about real life in a safe, welcoming space.</p>
           </div>
         </div>
         <div class="column">
           <div class="card">
-            <h3>Community Impact</h3>
-            <p>Serve together—helping our city, supporting families, and showing God’s love in action.</p>
+            <h3 id="communityImpactTitle">Community Impact</h3>
+            <p id="communityImpactDescription">Serve together—helping our city, supporting families, and showing God’s love in action.</p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="column">
           <div class="card">
-            <h3>Skills Learning</h3>
-            <p>Discover and grow talents like guitar, drums, keyboard, and more creative skills.</p>
+            <h3 id="skillsLearningTitle">Skills Learning</h3>
+            <p id="skillsLearningDescription">Discover and grow talents like guitar, drums, keyboard, and more creative skills.</p>
           </div>
         </div>
       </div>
     </section>
 
     <section class="content-section">
-      <h3>Why Join ACY?</h3>
+      <h3 id="whyJoinACYTitle">Why Join ACY?</h3>
       <ul>
-        <li>Make lifelong friends who share your faith journey</li>
-        <li>Discover your gifts and how to use them for God’s glory</li>
-        <li>Grow in confidence, purpose, and leadership</li>
-        <li>Have fun at camps, sports, and creative events</li>
+        <li id="makeLifelongFriends">Make lifelong friends who share your faith journey</li>
+        <li id="discoverYourGifts">Discover your gifts and how to use them for God’s glory</li>
+        <li id="growInConfidence">Grow in confidence, purpose, and leadership</li>
+        <li id="haveFunAtCamps">Have fun at camps, sports, and creative events</li>
       </ul>
     </section>
 
     <section class="welcome-section">
-      <h2>A Message of Hope</h2>
-      <p>
+      <h2 id="messageOfHopeTitle">A Message of Hope</h2>
+      <p id="messageOfHopeDescription">
         Life can feel overwhelming, but you don’t have to walk alone. 
         At AC Youth, we believe Jesus brings joy, peace, and purpose. 
         Come as you are—you’re welcome here!
       </p>
       <div class="text-center mt-2">
-        <a href="time.html" class="btn btn-primary">Join Us This Week</a>
-        <a href="events.html" class="btn btn-secondary">Check Out Youth Events</a>
+        <a href="time.html" class="btn btn-primary" id="joinUsThisWeek">Join Us This Week</a>
+        <a href="events.html" class="btn btn-secondary" id="checkOutYouthEvents">Check Out Youth Events</a>
       </div>
     </section>
   </div>
 
   <footer class="footer">
-    <h5>AGAPE Youth – Living for Jesus</h5>
-    <p>© 2025 AGAPE Church. All rights reserved.</p>
-    <div class="author">
-     Web Developer: Asende Maleunda ✉ ✍
+    <h5 id="footerTitle">AGAPE Youth – Living for Jesus</h5>
+    <p id="footerCopyright">© 2025 AGAPE Church. All rights reserved.</p>
+    <div class="author" id="footerAuthor">
+     Developer: Maleunda Dev ✉ ✍
     </div>
   </footer>
+
+
+  <script>
+    const translations = {
+      en: {
+        AgapeChurchYouthTitle: "AGAPE Church Events",
+        AgapeChurchYouthDescription: "Celebrating faith, fellowship, and community together",
+        youthLeaderTitle: " Youth Leader ",
+        youthGroupDescription: "Welcome to Agape Church Youth Croup",
+        youthLeaderEmail: "Email: simbanundaleon11@gmail.com",
+        whatWeDoTitle: "What We Do",
+        worshipNightsTitle: "Worship Nights",
+        worshipNightsDescription: "Experience powerful worship, prayer, and teaching that will inspire and strengthen your faith.",
+        smallGroupsTitle: "Small Groups",
+        smallGroupsDescription: "Hang out with friends, dive into the Bible, and talk about real life in a safe, welcoming space.",
+        communityImpactTitle: "Community Impact",
+        communityImpactDescription: "Serve together—helping our city, supporting families, and showing God’s love in action.",
+        skillsLearningTitle: "Skills Learning",
+        skillsLearningDescription: "Discover and grow talents like guitar, drums, keyboard, and more creative skills.",
+        whyJoinACYTitle: "Why Join ACY?",
+        makeLifelongFriends: "Make lifelong friends who share your faith journey",
+        discoverYourGifts: "Discover your gifts and how to use them for God’s glory",
+        growInConfidence: "Grow in confidence, purpose, and leadership",
+        haveFunAtCamps: "Have fun at camps, sports, and creative events",
+        messageOfHopeTitle: "A Message of Hope",
+        messageOfHopeDescription: "Life can feel overwhelming, but you don’t have to walk alone. At AC Youth, we believe Jesus brings joy, peace, and purpose. Come as you are—you’re welcome here!",
+        joinUsThisWeek: "Join Us This Week",
+        checkOutYouthEvents: "Check Out Youth Events",
+        footerTitle: "AGAPE Youth – Living for Jesus",
+        footerCopyright: "© 2025 AGAPE Church. All rights reserved.",
+        footerAuthor: "Developer: Maleunda Dev ✉ ✍"
+      },
+      sw: {
+        AgapeChurchYouthTitle: "Matukio ya Kanisa la AGAPE",
+        AgapeChurchYouthDescription: "Kusherehekea imani, ushirika, na jamii pamoja",
+        youthLeaderTitle: " Kiongozi wa Vijana ",
+        youthGroupDescription: "Karibu kwenye Kundi la Vijana wa Kanisa la Agape",
+        youthLeaderEmail: "Barua pepe: simbanundaleon11@gmail.com",
+        whatWeDoTitle: "Tunachofanya",
+        worshipNightsTitle: "Usiku wa Ibada",
+        worshipNightsDescription: "Pata uzoefu wa ibada yenye nguvu, maombi, na mafundisho yatakayokutia moyo na kuimarisha imani yako.",
+        smallGroupsTitle: "Vikundi Vidogo",
+        smallGroupsDescription: "Kaa na marafiki, chimba ndani ya Biblia, na zungumza kuhusu maisha halisi katika nafasi salama, inayokukaribisha.",
+        communityImpactTitle: "Athari ya Jamii",
+        communityImpactDescription: "Hudumiana pamoja—kusaidia jiji letu, kusaidia familia, na kuonyesha upendo wa Mungu katika vitendo.",
+        skillsLearningTitle: "Kujifunza Ujuzi",
+        skillsLearningDescription: "Gundua na kukuza vipaji kama vile gitaa, ngoma, kibodi, na ujuzi mwingine wa ubunifu.",
+        whyJoinACYTitle: "Kwa Nini Ujiunge na ACY?",
+        makeLifelongFriends: "Pata marafiki wa maisha ambao wanashiriki safari yako ya imani",
+        discoverYourGifts: "Gundua vipaji vyako na jinsi ya kuyatumia kwa utukufu wa Mungu",
+        growInConfidence: "Kua katika kujiamini, kusudi, na uongozi",
+        haveFunAtCamps: "Furahia kwenye kambi, michezo, na matukio ya ubunifu",
+        messageOfHopeTitle: "Ujumbe wa Matumaini",
+        messageOfHopeDescription: "Maisha yanaweza kuonekana kuwa magumu, lakini hauitaji kutembea peke yako. Katika AC Youth, tunaamini Yesu huleta furaha, amani, na kusudi. Kuja kama ulivyo—unakukaribishwa hapa!", 
+        joinUsThisWeek: "Jiunge Nasi Wiki Hii",
+        checkOutYouthEvents: "Angalia Matukio ya Vijana",
+        footerTitle: "ACY – Vijana wa AGAPE – Kuishi kwa Yesu",
+        footerCopyright: "© 2025 Kanisa la AGAPE. Haki zote zimehifadhiwa.",
+        footerAuthor: "Mtengenezaji: Maleunda Dev ✉ ✍"
+      },
+      fr: {
+        AgapeChurchYouthTitle: "Événements de l'Église AGAPE",
+        AgapeChurchYouthDescription: "Célébrer la foi, la fraternité et la communauté ensemble",
+        youthLeaderTitle: " Chef de la Jeunesse ",
+        youthGroupDescription: "Bienvenue au Groupe de Jeunesse de l'Église Agape",
+        youthLeaderEmail: "Email: simbanundaleon11@gmail.com",
+        whatWeDoTitle: "Ce que nous faisons",
+        worshipNightsTitle: "Nuits de Louange",
+        worshipNightsDescription: "Vivez une louange puissante, la prière et des enseignements qui inspireront et renforceront votre foi.",
+        smallGroupsTitle: "Petits Groupes",
+        smallGroupsDescription: "Passez du temps avec des amis, plongez dans la Bible et parlez de la vraie vie dans un espace sûr et accueillant.",
+        communityImpactTitle: "Impact Communautaire",
+        communityImpactDescription: "Servez ensemble—aidant notre ville, soutenant les familles, et montrant l'amour de Dieu en action.",
+        skillsLearningTitle: "Apprentissage des Compétences",
+        skillsLearningDescription: "Découvrez et développez des talents comme la guitare, la batterie, le clavier, et plus de compétences créatives.",
+        whyJoinACYTitle: "Pourquoi rejoindre ACY?",
+        makeLifelongFriends: "Faites des amis pour la vie qui partagent votre parcours de foi",
+        discoverYourGifts: "Découvrez vos dons et comment les utiliser pour la gloire de Dieu",
+        growInConfidence: "Grandissez en confiance, en but et en leadership",
+        haveFunAtCamps: "Amusez-vous dans les camps, les sports et les événements créatifs",
+        messageOfHopeTitle: "Un Message d'Espoir",
+        messageOfHopeDescription: "La vie peut sembler accablante, mais vous n'avez pas à marcher seul. Chez AC Youth, nous croyons que Jésus apporte joie, paix et but. Venez comme vous êtes—vous êtes les bienvenus ici!", 
+        joinUsThisWeek: "Rejoignez-nous cette semaine",
+        checkOutYouthEvents: "Découvrez les événements pour les jeunes",
+        footerTitle: "ACY – Jeunesse AGAPE – Vivre pour Jésus",
+        footerCopyright: "© 2025 Église AGAPE. Tous droits réservés.",
+        footerAuthor: "Développeur : Maleunda Dev ✉ ✍"
+      }
+    };
+
+            function applyLanguage(lang) {
+    for (const id in translations[lang]) {
+        const element = document.getElementById(id);
+        if (element) element.textContent = translations[lang][id];
+    }
+}
+
+document.getElementById("languageSelector").addEventListener("change", function () {
+    const lang = this.value;
+    const langName = this.options[this.selectedIndex].text;
+
+    if (confirm("Change language to " + langName + "?")) {
+        localStorage.setItem("siteLanguage", lang);
+        applyLanguage(lang);
+    } else {
+        this.value = localStorage.getItem("siteLanguage") || "en";
+    }
+});
+
+window.onload = function () {
+    const saved = localStorage.getItem("siteLanguage") || "en";
+    document.getElementById("languageSelector").value = saved;
+    applyLanguage(saved);
+};
+  </script>
 </body>
 </html>

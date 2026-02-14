@@ -3,30 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About AGAPE Church</title>
+    <title >About AGAPE Church</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <img class="logo" src="Agape LOGO.jpeg" alt="AGAPE Church Logo">
-        <h1>AGAPE Church Queensland/Australia</h1>
-        <p>Located in Brisbane, QLD Australia</p>
+        <h1 id="AgapeChurchTitle">AGAPE Church Queensland/Australia</h1>
+        <p id="AgapeChurchLocation">Located in Brisbane, QLD Australia</p>
+
+        <br>
+        <br>
+<h4>Swahili and French Speakers, Select Your Language:</h4>
+<select id="languageSelector" class="languageSelector" aria-label="Select Language" > 
+    <option value="en">English</option>
+    <option value="fr">French</option>
+    <option value="sw">Swahili</option>
+    
+</select>
     </header>
 
     <nav class="navigation">
-        <a href="home.html">Home</a>
-        <a href="ministry.html">About Us</a>
-        <a href="pastors.html">Pastors</a>
-        <a href="youth.html">ACY - Agape Youth</a> 
-        <a href="time.html">Service Times</a>
-        <a href="choir.html">Choir</a>
-        <a href="events.html">Events</a>
+        <a href="home.html" id="home">Home</a>
+        <a href="ministry.html" id="aboutUs">About Us</a>
+        <a href="pastors.html" id="pastors">Pastors</a>
+
     </nav>
 
     <div class="container">
         <section class="welcome-section">
-            <h1 class="animated-text">Welcome to AGAPE Church</h1>
-            <p>A place where love, faith, and community come together in the presence of God</p>
+            <h1 class="animated-text" id="welcomeMessage">Welcome to AGAPE Church</h1>
+            <p id="welcomeDescription">A place where love, faith, and community come together in the presence of God</p>
             <div style="font-size: 60px; color: #ff1122; text-align: center;">
                 ✝
             </div>
@@ -34,25 +41,25 @@
 
         <section class="content-section">
             <div class="text-center mb-2">
-                <a href="pastors.html" class="btn btn-primary">Meet Our Pastors</a>
-                <a href="home.html" class="btn btn-secondary">Back to Home</a>
+                <a href="pastors.html" class="btn btn-primary" id="meetOurPastorsButton">Meet Our Pastors</a>
+                <a href="home.html" class="btn btn-secondary" id="backToHomeButton">Back to Home</a>
             </div>
 
             <div class="about-section">
-                <h2>About Our Church</h2>
-                <p>
+                <h2 id="aboutOurChurchTitle">About Our Church</h2>
+                <p id="aboutOurChurchDescription">
                     Welcome to AGAPE Church—a place where love, faith, and community come together in the presence of God. 
                     We are a Christ-centered congregation that opens its doors to everyone, regardless of background or experience. 
                     Whether you're new to the faith, returning after time away, or simply looking for a spiritual home, you are warmly invited to join us.
                 </p>
 
-                <p>
+                <p  id="aboutOurChurchDescription2">
                     At AGAPE Church, we come together each week to praise and worship our Lord God in unity and joy. 
                     Through heartfelt worship, prayer, and the teaching of the Word, we seek to grow deeper in our relationship with Jesus Christ 
                     and live out His love in our daily lives.
                 </p>
 
-                <p>
+                <p id="aboutOurChurchDescription3">
                     We believe that the Word of God is living and powerful, and we are committed to sharing it together as a church family. 
                     Each service is an opportunity to learn, be encouraged, and be transformed by His truth.
                 </p>
@@ -62,22 +69,22 @@
         <div class="row">
             <div class="column">
                 <div class="card">
-                    <h3>Our Vision</h3>
-                    <p>To be a Christ-centered community that transforms lives through the love and power of God, reaching out to our local community and beyond with the Gospel of Jesus Christ.</p>
+                    <h3 id="ourVisionTitle">Our Vision</h3>
+                    <p id="ourVisionDescription">To be a Christ-centered community that transforms lives through the love and power of God, reaching out to our local community and beyond with the Gospel of Jesus Christ.</p>
                 </div>
             </div>
             
             <div class="column">
                 <div class="card">
-                    <h3>Our Mission</h3>
-                    <p>To worship God, make disciples, serve our community, and build a loving family of believers who support one another in their faith journey.</p>
+                    <h3 id="ourMissionTitle">Our Mission</h3>
+                    <p id="ourMissionDescription">To worship God, make disciples, serve our community, and build a loving family of believers who support one another in their faith journey.</p>
                 </div>
             </div>
         </div>
 
         <section class="content-section">
-            <h2>What to Expect When You Visit</h2>
-            <p>
+            <h2 id="whatToExpectTitle">What to Expect When You Visit</h2>
+            <p id="whatToExpectDescription">
                 If you are planning to visit, our friendly members are here to welcome you and help you find your way. 
                 We meet every Sunday, and someone from our hospitality team will gladly assist you in locating our gathering place 
                 and making you feel at home.
@@ -85,50 +92,50 @@
             
             <div class="row">
                 <div class="column">
-                    <h4>🎵 Worship Experience</h4>
-                    <p>Experience heartfelt worship through music, prayer, and fellowship in a welcoming atmosphere.</p>
+                    <h4 id="worshipExperienceTitle">🎵 Worship Experience</h4>
+                    <p id="worshipExperienceDescription">Experience heartfelt worship through music, prayer, and fellowship in a welcoming atmosphere.</p>
                 </div>
                 
                 <div class="column">
-                    <h4>📖 Biblical Teaching</h4>
-                    <p>Receive practical, life-changing messages from God's Word that you can apply to your daily life.</p>
+                    <h4 id="biblicalTeachingTitle">📖 Biblical Teaching</h4>
+                    <p id="biblicalTeachingDescription">Receive practical, life-changing messages from God's Word that you can apply to your daily life.</p>
                 </div>
                 
                 <div class="column">
-                    <h4>🤝 Community</h4>
-                    <p>Connect with a loving church family that cares for one another and supports each other's growth.</p>
+                    <h4 id="communityTitle">🤝 Community</h4>
+                    <p id="communityDescription">Connect with a loving church family that cares for one another and supports each other's growth.</p>
                 </div>
             </div>
 
             <div class="text-center mt-2">
-                <p><strong>Come as you are. There's a place for you here at AGAPE Church.</strong></p>
-                <a href="time.html" class="btn btn-primary">View Service Times</a>
-                <a href="pastor.html" class="btn btn-secondary">Contact Us</a>
+                <p id="comeAsYouAreDescription"><strong>Come as you are. There's a place for you here at AGAPE Church.</strong></p>
+                <a href="time.html" class="btn btn-primary" id="viewServiceTimesButton">View Service Times</a>
+                <a href="pastor.html" class="btn btn-secondary" id="contactUsButton">Contact Us</a>
             </div>
         </section>
 
         <section class="content-section">
-            <h2>Our Ministries</h2>
+            <h2 id="ourMinistriesTitle">Our Ministries</h2>
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <h4>Choir Ministry</h4>
-                        <p>Join our vibrant choir and use your voice to worship God and minister to others through music.</p>
-                        <a href="choir.html" class="btn">Learn More</a>
+                        <h4 id="choirMinistryTitle">Choir Ministry</h4>
+                        <p id="choirMinistryDescription">Join our vibrant choir and use your voice to worship God and minister to others through music.</p>
+                        <a href="choir.html" class="btn" id="learnMoreChoirButton">Learn More</a>
                     </div>
                 </div>
                 
                 <div class="column">
                     <div class="card">
-                        <h4>Prayer Ministry</h4>
-                        <p>Experience the power of prayer as we intercede for our community, church family, and world.</p>
+                        <h4 id="prayerMinistryTitle">Prayer Ministry</h4>
+                        <p id="prayerMinistryDescription">Experience the power of prayer as we intercede for our community, church family, and world.</p>
                     </div>
                 </div>
                 
                 <div class="column">
                     <div class="card">
-                        <h4>Community Outreach</h4>
-                        <p>Serve our local community through various outreach programs and acts of kindness.</p>
+                        <h4 id="communityOutreachTitle">Community Outreach</h4>
+                        <p id="communityOutreachDescription">Serve our local community through various outreach programs and acts of kindness.</p>
                     </div>
                 </div>
             </div>
@@ -136,17 +143,193 @@
     </div>
 
     <footer class="footer">
-        <h5>AGAPE Church Queensland</h5>
-        <h5>Love</h5>
-        <h5>Unity & Fellowship</h5>
-        <h5>Community Organization</h5>
-        <h5>Life in Australia</h5>
-        <h5>Support for Members</h5>
-        <p>We welcome you to AGAPE Church - UPENDO na USHIRIKA</p>
-        <p>© 2025 AGAPE Church. All rights reserved.</p>
+        <h5 id="agapeChurchQueenslandTitle">AGAPE Church Queensland</h5>
+        <h5 id="loveTitle">Love</h5>
+        <h5 id="unityFellowshipTitle">Unity & Fellowship</h5>
+        <h5 id="communityOrganizationTitle">Community Organization</h5>
+        <h5 id="lifeInAustraliaTitle">Life in Australia</h5>
+        <h5 id="supportForMembersTitle">Support for Members</h5>
+        <p id="welcomeMessage">We welcome you to AGAPE Church - UPENDO na USHIRIKA</p>
+        <p id="copyrightMessage">© 2025 AGAPE Church. All rights reserved.</p>
         <div class="author">
-            Web Developer: Asende Maleunda ✉ ✍
+            <p id="developerInfo">Developer: Maleunda Dev ✉ ✍</p>
         </div>
     </footer>
+
+    <script>
+        const translations = {
+        en: {
+            AgapeChurchTitle: "AGAPE Church Queensland/Australia",
+            AgapeChurchLocation: "Located in Brisbane, QLD Australia",
+            home: "Home",
+            aboutUs: "About Us",
+            pastors: "Pastors",
+            youth: "ACY - Agape Youth",
+            serviceTimes: "Service Times",
+            choir: "Choir",
+            events: "Events",
+            welcomeMessage: "Welcome to AGAPE Church",
+            welcomeDescription: "A place where love, faith, and community come together in the presence of God",
+            aboutOurChurchTitle: "About Our Church",
+            aboutOurChurchDescription: "Welcome to AGAPE Church—a place where love, faith, and community come together in the presence of God. We are a Christ-centered congregation that opens its doors to everyone, regardless of background or experience. Whether you're new to the faith, returning after time away, or simply looking for a spiritual home, you are warmly invited to join us.",
+            aboutOurChurchDescription2: "At AGAPE Church, we come together each week to praise and worship our Lord God in unity and joy. Through heartfelt worship, prayer, and the teaching of the Word, we seek to grow deeper in our relationship with Jesus Christ and live out His love in our daily lives.",
+            aboutOurChurchDescription3: "We believe that the Word of God is living and powerful, and we are committed to sharing it together as a church family. Each service is an opportunity to learn, be encouraged, and be transformed by His truth.",
+            ourVisionTitle: "Our Vision",
+            ourVisionDescription: "To be a Christ-centered community that transforms lives through the love and power of God, reaching out to our local community and beyond with the Gospel of Jesus Christ.",
+            ourMissionTitle: "Our Mission",
+            ourMissionDescription: "To worship God, make disciples, serve our community, and build a loving family of believers who support one another in their faith journey.",
+            whatToExpectTitle: "What to Expect When You Visit",
+            whatToExpectDescription: "If you are planning to visit, our friendly members are here to welcome you and help you find your way. We meet every Sunday, and someone from our hospitality team will gladly assist you in locating our gathering place and making you feel at home.",
+            worshipExperienceTitle: "🎵 Worship Experience",
+            worshipExperienceDescription: "Experience heartfelt worship through music, prayer, and fellowship in a welcoming atmosphere.",
+            biblicalTeachingTitle: "📖 Biblical Teaching",
+            biblicalTeachingDescription: "Receive practical, life-changing messages from God's Word that you can apply to your daily life.",
+            communityTitle: "🤝 Community",
+            communityDescription: "Join a supportive community where you can grow in your faith, build meaningful relationships, and serve others.",
+            comeAsYouAreDescription: "Come as you are. There's a place for you here at AGAPE Church.",
+            viewServiceTimesButton: "View Service Times",
+            contactUsButton: "Contact Us",
+            ourMinistriesTitle: "Our Ministries",
+            choirMinistryTitle: "Choir Ministry",
+            choirMinistryDescription: "Join our vibrant choir and use your voice to worship God and minister to others through music.",
+            learnMoreChoirButton: "Learn More",
+            prayerMinistryTitle: "Prayer Ministry",
+            prayerMinistryDescription: "Experience the power of prayer as we intercede for our community, church family, and world.",
+            communityOutreachTitle: "Community Outreach",
+            communityOutreachDescription: "Serve our local community through various outreach programs and acts of kindness.",
+            agapeChurchQueenslandTitle: "AGAPE Church Queensland",
+            loveTitle: "Love",
+            unityFellowshipTitle: "Unity & Fellowship",
+            communityOrganizationTitle: "Community Organization",
+            lifeInAustraliaTitle: "Life in Australia",
+            supportForMembersTitle: "Support for Members",
+            welcomeMessage: "We welcome you to AGAPE Church - UPENDO na USHIRIKA",  
+},
+
+        fr: {
+            AgapeChurchTitle: "Église AGAPE Queensland/Australie",
+            AgapeChurchLocation: "Située à Brisbane, QLD Australie",
+            home: "Accueil",
+            aboutUs: "À propos de nous",
+            pastors: "Pasteurs",
+            youth: "ACY - Jeunesse Agape",
+            serviceTimes: "Horaires des services",
+            choir: "Chœur",
+            events: "Événements",
+            welcomeMessage: "Bienvenue à l'Église AGAPE",
+            welcomeDescription: "Un lieu où l'amour, la foi et la communauté se réunissent en présence de Dieu",
+            aboutOurChurchTitle: "À propos de notre église",
+            aboutOurChurchDescription: "Bienvenue à l'Église AGAPE - un lieu où l'amour, la foi et la communauté se réunissent en présence de Dieu. Nous sommes une congrégation centrée sur le Christ qui ouvre ses portes à tous, quel que soit leur parcours ou leur expérience. Que vous soyez nouveau dans la foi, que vous reveniez après une période d'absence ou que vous cherchiez simplement un foyer spirituel, vous êtes chaleureusement invité à nous rejoindre.",
+            aboutOurChurchDescription2: "À l'Église AGAPE, nous nous réunissons chaque semaine pour louer et adorer notre Seigneur Dieu dans l'unité et la joie. À travers une adoration sincère, la prière et l'enseignement de la Parole, nous cherchons à approfondir notre relation avec Jésus-Christ et à vivre son amour dans notre vie quotidienne.",
+            aboutOurChurchDescription3: "Nous croyons que la Parole de Dieu est vivante et puissante, et nous nous engageons à la partager ensemble en tant que famille d'église. Chaque service est une occasion d'apprendre, d'être encouragé et d'être transformé par sa vérité.",
+            ourVisionTitle: "Notre vision",
+            ourVisionDescription: "Être une communauté centrée sur le Christ qui transforme des vies par l'amour et la puissance de Dieu, atteignant notre communauté locale et au-delà avec l'Évangile de Jésus-Christ.",
+            ourMissionTitle: "Notre mission",
+            ourMissionDescription: "Adorer Dieu, faire des disciples, servir notre communauté et construire une famille aimante de croyants qui se soutiennent mutuellement dans leur parcours de foi.",
+            whatToExpectTitle: "À quoi s'attendre lors de votre visite",
+            whatToExpectDescription: "Si vous prévoyez de visiter, nos membres amicaux sont là pour vous accueillir et vous aider à trouver votre chemin. Nous nous réunissons tous les dimanches, et quelqu'un de notre équipe d'accueil se fera un plaisir de vous aider à localiser notre lieu de rassemblement et à vous faire sentir chez vous.",
+            worshipExperienceTitle: "🎵 Expérience de culte",
+            worshipExperienceDescription: "Vivez une adoration sincère à travers la musique, la prière et la communion dans une atmosphère accueillante.",
+            biblicalTeachingTitle: "📖 Enseignement biblique",
+            biblicalTeachingDescription: "Recevez un enseignement biblique profond et pertinent qui vous aide à grandir dans votre foi et à appliquer la Parole de Dieu dans votre vie quotidienne.",
+            communityTitle: "🤝 Communauté",
+            communityDescription: "Rejoignez une communauté aimante et solidaire où vous pouvez grandir dans votre foi, établir des relations significatives et servir ensemble.",      
+            comeAsYouAreDescription: "Venez comme vous êtes. Il y a une place pour vous ici à l'Église AGAPE.",
+            viewServiceTimesButton: "Voir les horaires des services",
+            contactUsButton: "Contactez-nous",
+            ourMinistriesTitle: "Nos ministères",
+            choirMinistryTitle: "Ministère de la chorale",
+            choirMinistryDescription: "Rejoignez notre chorale vibrante et utilisez votre voix pour adorer Dieu et servir les autres à travers la musique.",
+            learnMoreChoirButton: "En savoir plus",
+            prayerMinistryTitle: "Ministère de prière",
+            prayerMinistryDescription: "Vivez la puissance de la prière alors que nous intercédons pour notre communauté, notre famille d'église et le monde.",
+            communityOutreachTitle: "Sensibilisation communautaire",
+            communityOutreachDescription: "Servez notre communauté locale à travers divers programmes de sensibilisation et actes de gentillesse.",
+            agapeChurchQueenslandTitle: "Église AGAPE Queensland",
+            loveTitle: "Amour",
+            unityFellowshipTitle: "Unité & Communion",
+            communityOrganizationTitle: "Organisation communautaire",
+            lifeInAustraliaTitle: "La vie en Australie",
+            supportForMembersTitle: "Soutien pour les membres",
+            welcomeMessage: "Nous vous accueillons à l'Église AGAPE - UPENDO na USHIRIKA",  
+
+        },
+        sw: {
+            AgapeChurchTitle: "Kanisa la AGAPE Queensland/Australia",
+            AgapeChurchLocation: "liko Brisbane, QLD Australia",
+            home: "Nyumbani",
+            aboutUs: "Kuhusu Sisi",
+            pastors: "Mabishara",
+            youth: "ACY - Vijana wa Agape",
+            serviceTimes: "Muda wa Huduma",
+            choir: "Kwaya",
+            events: "Matukio",
+            welcomeMessage: "Karibu Kanisa la AGAPE",
+            welcomeDescription: "Mahali ambapo upendo, imani, na jamii hukutana katika uwepo wa Mungu",
+            aboutOurChurchTitle: "Kuhusu Kanisa Letu",
+            aboutOurChurchDescription: "Karibu Kanisa la AGAPE - mahali ambapo upendo, imani, na jamii hukutana katika uwepo wa Mungu. Sisi ni kongregation inayojikita katika Kristo ambayo inafungua milango yake kwa kila mtu, bila kujali asili au uzoefu. Iwe wewe ni mpya katika imani, unarejea baada ya muda wa kutengwa, au unatafuta tu nyumba ya kiroho, unakaribishwa kwa moyo mkunjufu kujiunga nasi.",
+            aboutOurChurchDescription2: "Katika Kanisa la AGAPE, tunakusanyika kila wiki kuabudu na kumtukuza Bwana Mungu wetu kwa umoja na furaha. Kupitia ibada ya moyo, sala, na mafundisho ya Neno, tunatafuta kukuza uhusiano wetu na Yesu Kristo na kuishi upendo wake katika maisha yetu ya kila siku.",
+            aboutOurChurchDescription3: "Tunaamini kwamba Neno la Mungu ni hai na lenye nguvu, na tumejizata kushiriki pamoja kama familia ya kanisa. Kila huduma ni fursa ya kujifunza, kuhamasika, na kubadilishwa na ukweli wake.",
+            ourVisionTitle: "Maono Yetu",
+            ourVisionDescription: "Kuwa jamii inayojikita katika Kristo inayobadilisha maisha kupitia upendo na nguvu za Mungu, ikifikia jamii yetu ya karibu na zaidi na Injili ya Yesu Kristo.",
+            ourMissionTitle: "Dhamira Yetu",
+            ourMissionDescription: "Kumwabudu Mungu, kutengeneza wanafunzi, kuhudumia jamii yetu, na kujenga familia ya wapendwa waamini wanaounga mkono mmoja mwingine katika safari yao ya imani.",
+            whatToExpectTitle: "Unachotarajia Unapotembelea",
+            whatToExpectDescription: "Ikiwa unapanga kutembelea, wanachama wetu wema wako hapa kukukaribisha na kukusaidia kupata njia yako. Tunakusanyika kila Jumapili, na mtu kutoka timu yetu ya ukaribisho atafurahi kukusaidia kupata mahali pa kukusanyika na kukufanya uhisi nyumbani.",
+            worshipExperienceTitle: "🎵 Uzoefu wa Ibada",
+            worshipExperienceDescription: "Pata uzoefu wa ibada ya moyo kupitia muziki, sala, na ushirika katika mazingira yanayokaribisha.",
+            biblicalTeachingTitle: "📖 Mafundisho ya Biblia",
+            biblicalTeachingDescription: "Pokea mafundisho ya kina na yanayohusiana ya Biblia ambayo yatakusaidia kukua katika imani yako na kutumia Neno la Mungu katika maisha yako ya kila siku.",
+            communityTitle: "🤝 Jamii",
+            communityDescription: "Jiunge na jamii yenye upendo na msaada ambapo unaweza kukua katika imani yako, kujenga uhusiano wa maana, na kuhudumia pamoja.",      
+            comeAsYouAreDescription: "Kuja kama ulivyo. Kuna nafasi kwa ajili yako hapa katika Kanisa la AGAPE.",
+            viewServiceTimesButton: "Tazama Muda wa Huduma",
+            contactUsButton: "Wasiliana Nasi",
+            ourMinistriesTitle: "Ministries Yetu",
+            choirMinistryTitle: "Ministry ya Kwaya",
+            choirMinistryDescription: "Jiunge na kwaya yetu yenye nguvu na tumia sauti yako kuabudu Mungu na kuhudumia wengine kupitia muziki.",
+            learnMoreChoirButton: "Jifunze Zaidi",
+            prayerMinistryTitle: "Ministry ya Sala",
+            prayerMinistryDescription: "Pata uzoefu wa nguvu ya sala tunapointersede kwa jamii yetu, familia ya kanisa, na dunia.",
+            communityOutreachTitle: "Ushirikiano wa Jamii",
+            communityOutreachDescription: "Hudumia jamii yetu ya karibu kupitia programu mbalimbali za ushirikiano na matendo ya wema.",
+            agapeChurchQueenslandTitle: "Kanisa la AGAPE Queensland",
+            loveTitle: "Upendo",
+            unityFellowshipTitle: "Umoja & Ushirika",
+            communityOrganizationTitle: "Shirika la Jamii",
+            lifeInAustraliaTitle: "Maisha nchini Australia",
+            supportForMembersTitle: "Msaada kwa Wanachama",
+            welcomeMessage: "Tunakukaribisha katika Kanisa la AGAPE - UPENDO na USHIRIKA",  
+
+        },
+        };
+
+
+
+        function applyLanguage(lang) {
+    for (const id in translations[lang]) {
+        const element = document.getElementById(id);
+        if (element) element.textContent = translations[lang][id];
+    }
+}
+
+document.getElementById("languageSelector").addEventListener("change", function () {
+    const lang = this.value;
+    const langName = this.options[this.selectedIndex].text;
+
+    if (confirm("Change language to " + langName + "?")) {
+        localStorage.setItem("siteLanguage", lang);
+        applyLanguage(lang);
+    } else {
+        this.value = localStorage.getItem("siteLanguage") || "en";
+    }
+});
+
+window.onload = function () {
+    const saved = localStorage.getItem("siteLanguage") || "en";
+    document.getElementById("languageSelector").value = saved;
+    applyLanguage(saved);
+};
+</script>
 </body>
 </html>

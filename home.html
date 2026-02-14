@@ -11,81 +11,238 @@
         <img class="logo" src="Agape LOGO.jpeg" alt="AGAPE Church Logo">
         <h1>Welcome to AGAPE Church Queensland</h1>
         <p>A place where love, faith, and community come together in God's presence</p>
+    
+        <br>
+        <br>
+        
+    
+        <h4>Swahili and French Speakers, Select Your Language:</h4>
+        <select id="languageSelector" class="languageSelector" aria-label="Select Language">
+            <option value="en">English</option>
+            <option value="fr">French</option>
+            <option value="sw">Swahili</option>
+        </select>
+
+    
     </header>
 
     <nav class="navigation">
-        <a href="home.html">Home</a>
-        <a href="ministry.html">About Us</a>
-        <a href="pastors.html">Pastors</a>
-        <a href="youth.html">ACY - Agape Youth</a> 
-        <a href="time.html">Service Times</a>
-        <a href="choir.html">Choir</a>
-        <a href="events.html">Events</a>
-        <a href="contact.html"> Contact</a>
+        <a href="home.html" id="Home">Home</a>
+        <a href="ministry.html" id="AboutUs">About Us</a>
+        <a href="pastors.html" id="Pastors">Pastors</a>
+
+
     </nav>
 
     <div class="container">
         <section class="welcome-section">
-            <h2>Welcome to Our Church Family</h2>
-            <p>At AGAPE Church, we believe in the transforming power of God's love. Whether you're new to faith, returning after time away, or looking for a spiritual home, you are warmly welcomed here.</p>
-            <a href="ministry.html" class="btn btn-primary">Learn More About Us</a>
-            <a href="time.html" class="btn btn-secondary">Service Information</a>
+            <h2 id="welcomeMessage"> Welcome to Our Church Family</h2>
+            <p id="welcomeDescription">At AGAPE Church, we believe in the transforming power of God's love. Whether you're new to faith, returning after time away, or looking for a spiritual home, you are warmly welcomed here.</p>
+            <a href="ministry.html" class="btn btn-primary" id="learnMoreAboutUsButton">Learn More About Us</a>
+            <a href="time.html" class="btn btn-secondary" id="serviceInformationButton">Service Information</a>
         </section>
 
         <div class="row">
             <div class="column">
                 <div class="card">
-                    <h3>Sunday Services</h3>
-                    <p>Join us every Sunday for worship, prayer, and fellowship. Experience the presence of God in a warm, welcoming environment.</p>
-                    <a href="time.html" class="btn">Service Times</a>
+                    <h3 id="sundayServicesTitle">Sunday Services</h3>
+                    <p id="sundayServicesDescription">Join us every Sunday for worship, prayer, and fellowship. Experience the presence of God in a warm, welcoming environment.</p>
+                    <a href="time.html" class="btn" id="sundayServicesButton">Service Times</a>
                 </div>
             </div>
             
             <div class="column">
                 <div class="card">
-                    <h3>Our Choir</h3>
-                    <p>Be part of our vibrant choir ministry. We sing praises to God and worship together in unity and joy.</p>
-                    <a href="choir.html" class="btn">Join the Choir</a>
+                    <h3 id="ourChoirTitle">Our Choir</h3>
+                    <p id="ourChoirDescription">Be part of our vibrant choir ministry. We sing praises to God and worship together in unity and joy.</p>
+                    <a href="choir.html" class="btn" id="joinChoirButton">Join the Choir</a>
                 </div>
             </div>
             
             <div class="column">
                 <div class="card">
-                    <h3>Meet Our Pastors</h3>
-                    <p>Our church is blessed with dedicated pastors who shepherd our congregation with wisdom and love.</p>
-                    <a href="pastors.html" class="btn">Meet the Team</a>
+                    <h3 id="meetOurPastorsTitle">Meet Our Pastors</h3>
+                    <p id="meetOurPastorsDescription">Our church is blessed with dedicated pastors who shepherd our congregation with wisdom and love.</p>
+                    <a href="pastors.html" class="btn" id="meetOurPastorsButton">Meet the Team</a>
                 </div>
             </div>
         </div>
 
         <section class="content-section">
-            <h2>Our Mission</h2>
-            <p>At AGAPE Church, we are committed to:</p>
+            <h2 id="ourMissionTitle">Our Mission</h2>
+            <p id="ourMissionDescription">At AGAPE Church, we are committed to:</p>
             <ul>
-                <li>Preaching the Word of God with truth and love</li>
-                <li>Building a strong community of believers</li>
-                <li>Supporting one another in faith and daily life</li>
-                <li>Reaching out to those in need</li>
-                <li>Growing together in our relationship with Jesus Christ</li>
+                <li id="missionPoint1">Preaching the Word of God with truth and love</li>
+                <li id="missionPoint2">Building a strong community of believers</li>
+                <li id="missionPoint3">Supporting one another in faith and daily life</li>
+                <li id="missionPoint4">Reaching out to those in need</li>
+                <li id="missionPoint5">Growing together in our relationship with Jesus Christ</li>
             </ul>
         </section>
 
         <section class="content-section">
-            <h2>Visit Us</h2>
-            <p>We would love to welcome you personally to AGAPE Church. Come as you are - there's a place for you here. Our friendly members are ready to help you feel at home and answer any questions you might have.</p>
-            <p><strong>Location:</strong> Brisbane, Queensland, Australia</p>
-            <a href="pastor.html" class="btn btn-primary">Get In Touch</a>
+            <h2 id="visitUsTitle">Visit Us</h2>
+            <p id="visitUsDescription">We would love to welcome you personally to AGAPE Church. Come as you are - there's a place for you here. Our friendly members are ready to help you feel at home and answer any questions you might have.</p>
+            <p id="visitUsLocation"><strong>Location:</strong> Brisbane, Queensland, Australia</p>
+            <a href="pastor.html" class="btn btn-primary" id="getInTouchButton">Get In Touch</a>
         </section>
     </div>
 
     <footer class="footer">
-        <h5>AGAPE Church Queensland</h5>
-        <p>Love • Faith • Community • Hope</p>
-        <p>© 2025 AGAPE Church. All rights reserved.</p>
-        <div class="author">
+        <h5 id="footerChurchName">AGAPE Church Queensland</h5>
+        <p id="footerMotto">Love • Faith • Community • Hope</p>
+        <p id="footerCopyright">© 2025 AGAPE Church. All rights reserved.</p>
+        <div class="author" id="footerAuthor">
             Web Developer: Asende Maleunda ✉ ✍
         </div>
     </footer>
+
+    <script>
+    const translations = {
+
+        en: {
+            Home: "Home",
+            AboutUs: "About Us",
+            Pastors: "Pastors",
+            AgapeYouth: "ACY - Agape Youth",
+            ServiceTimes: "Service Times",
+            Choir: "Choir",
+            Events: "Events",
+            Contact: "Contact",
+            homeText: "Home of all those who love Jesus Christ and His teaching",
+            welcomeMessage: "Welcome to Our Church Family",
+            welcomeDescription: "At AGAPE Church, we believe in the transforming power of God's love. Whether you're new to faith, returning after time away, or looking for a spiritual home, you are warmly welcomed here.",
+            learnMoreAboutUsButton: "Learn More About Us",
+            serviceInformationButton: "Service Information",
+            sundayServicesTitle: "Sunday Services",
+            sundayServicesDescription: "Join us every Sunday for worship, prayer, and fellowship. Experience the presence of God in a warm, welcoming environment.",
+            sundayServicesButton: "Service Times",
+            ourChoirTitle: "Our Choir",
+            ourChoirDescription: "Be part of our vibrant choir ministry. We sing praises to God and worship together in unity and joy.",
+            joinChoirButton: "Join the Choir",
+            meetOurPastorsTitle: "Meet Our Pastors",
+            meetOurPastorsDescription: "Our church is blessed with dedicated pastors who shepherd our congregation with wisdom and love.",
+            meetOurPastorsButton: "Meet the Team",
+            ourMissionTitle: "Our Mission",
+            ourMissionDescription: "At AGAPE Church, we are committed to:",
+            missionPoint1: "Preaching the Word of God with truth and love",
+            missionPoint2: "Building a strong community of believers",
+            missionPoint3: "Supporting one another in faith and daily life",
+            missionPoint4: "Reaching out to those in need",
+            missionPoint5: "Growing together in our relationship with Jesus Christ",
+            visitUsTitle: "Visit Us",
+            visitUsDescription: "We would love to welcome you personally to AGAPE Church. Come as you are - there's a place for you here. Our friendly members are ready to help you feel at home and answer any questions you might have.",
+            visitUsLocation: "Location: Brisbane, Queensland, Australia",
+            getInTouchButton: "Get In Touch",
+            footerChurchName: "AGAPE Church Queensland",
+            footerMotto: "Love • Faith • Community • Hope",
+            footerCopyright: "© 2025 AGAPE Church. All rights reserved.",
+            footerAuthor: "Web Developer: Asende Maleunda ✉ ✍"
+        },
+        fr: {
+            Home: "Accueil",
+            AboutUs: "À propos de nous",
+            Pastors: "Pasteurs",
+            AgapeYouth: "ACY - Jeunesse Agape",
+            ServiceTimes: "Horaires des services",
+            Choir: "Chorale",
+            Events: "Événements",
+            Contact: "Contact",
+            homeText: "Le foyer de tous ceux qui aiment Jésus-Christ et son enseignement",
+            welcomeMessage: "Bienvenue dans notre famille d'église",
+            welcomeDescription: "À l'église AGAPE, nous croyons au pouvoir transformateur de l'amour de Dieu. Que vous soyez nouveau dans la foi, que vous reveniez après une période d'absence ou que vous cherchiez un foyer spirituel, vous êtes chaleureusement accueilli ici.",
+            learnMoreAboutUsButton: "En savoir plus sur nous",
+            serviceInformationButton: "Informations sur les services",
+            sundayServicesTitle: "Services du dimanche",
+            sundayServicesDescription: "Rejoignez-nous chaque dimanche pour le culte, la prière et la communion. Faites l'expérience de la présence de Dieu dans un environnement chaleureux et accueillant.",
+            sundayServicesButton: "Horaires des services",
+            ourChoirTitle: "Notre chorale",
+            ourChoirDescription: "Faites partie de notre ministère de chorale dynamique. Nous chantons les louanges à Dieu et adorons ensemble dans l'unité et la joie.",
+            joinChoirButton: "Rejoignez la chorale",
+            meetOurPastorsTitle: "Rencontrez nos pasteurs",
+            meetOurPastorsDescription: "Notre église est bénie avec des pasteurs dévoués qui dirigent notre congrégation avec sagesse et amour.",
+            meetOurPastorsButton: "Rencontrez l'équipe",
+            ourMissionTitle: "Notre mission",
+            ourMissionDescription: "À l'église AGAPE, nous nous engageons à :",
+            missionPoint1: "Prêcher la Parole de Dieu avec vérité et amour",
+            missionPoint2: "Construire une forte communauté de croyants",
+            missionPoint3: "Soutenir les uns les autres dans la foi et la vie quotidienne",
+            missionPoint4: "Atteindre ceux qui sont dans le besoin",
+            missionPoint5: "Grandir ensemble dans notre relation avec Jésus-Christ",
+            visitUsTitle: "Visitez-nous",
+            visitUsDescription: "Nous aimerions vous accueillir personnellement à l'église AGAPE. Venez comme vous êtes - il y a une place pour vous ici. Nos membres sympathiques sont prêts à vous aider à vous sentir chez vous et à répondre à toutes vos questions.",
+            visitUsLocation: "Emplacement : Brisbane, Queensland, Australie",
+            getInTouchButton: "Contactez-nous",
+            footerChurchName: "Église AGAPE Queensland",
+            footerMotto: "Amour • Foi • Communauté • Espoir",
+            footerCopyright: "© 2025 Église AGAPE. Tous droits réservés.",
+            footerAuthor: "Développeur Web : Asende Maleunda ✉ ✍"
+        },
+        sw: {
+            Home: "Nyumbani",
+            AboutUs: "Kuhusu Sisi",
+            Pastors: "Mabishara",
+            AgapeYouth: "ACY - Vijana wa Agape",
+            ServiceTimes: "Muda wa Huduma",
+            Choir: "Kwaya",
+            Events: "Matukio",
+            Contact: "Mawasiliano",
+            homeText: "Nyumbani kwa wote wanaopenda Yesu Kristo na mafundisho yake",
+            welcomeMessage: "Karibu katika Familia Yetu ya Kanisa",
+            welcomeDescription: "Katika Kanisa la AGAPE, tunaamini katika nguvu ya kubadilisha ya upendo wa Mungu. Iwe wewe ni mpya katika imani, unarejea baada ya muda wa kutengwa, au unatafuta nyumba ya kiroho, unakaribishwa kwa moyo mkunjufu hapa.",
+            learnMoreAboutUsButton: "Jifunze Zaidi Kuhusu Sisi",
+            serviceInformationButton: "Taarifa za Huduma",
+            sundayServicesTitle: "Huduma za Jumapili",
+            sundayServicesDescription: "Jiunge nasi kila Jumapili kwa ibada, sala, na ushirika. Pata uzoefu wa uwepo wa Mungu katika mazingira ya joto na kukaribisha.",
+            sundayServicesButton: "Muda wa Huduma",
+            ourChoirTitle: "Kwaya Yetu",
+            ourChoirDescription: "Kuwa sehemu ya huduma yetu ya kwaya yenye nguvu. Tunaimba sifa kwa Mungu na kuabudu pamoja katika umoja na furaha.",      
+            joinChoirButton: "Jiunge na Kwaya",
+            meetOurPastorsTitle: "Kutana na Mabishara Wetu",
+            meetOurPastorsDescription: "Kanisa letu limebarikiwa na mabishara waliojitolea ambao wanahudumia kongregesheni yetu kwa hekima na upendo.",
+            meetOurPastorsButton: "Kutana na Timu",
+            ourMissionTitle: "Dhamira Yetu",
+            ourMissionDescription: "Katika Kanisa la AGAPE, tumejizatiti kwa:",
+            missionPoint1: "Kutangaza Neno la Mungu kwa kweli na upendo",
+            missionPoint2: "Kujenga jumuiya imara ya waumini",
+            missionPoint3: "Kusaidiana katika imani na maisha ya kila siku",
+            missionPoint4: "Kufikia wale walio katika haja",
+            missionPoint5: "Kukua pamoja katika uhusiano wetu na Yesu Kristo",
+            visitUsTitle: "Tembelea Sisi",
+            visitUsDescription: "Tunapenda kukukaribisha kibinafsi katika Kanisa la AGAPE. Kuja kama ulivyo - kuna nafasi kwako hapa. Wanachama wetu wema wako tayari kukusaidia kujisikia nyumbani na kujibu maswali yoyote unayoweza kuwa nayo.",
+            visitUsLocation: "Mahali: Brisbane, Queensland, Australia",
+            getInTouchButton: "Wasiliana Nasi",
+            footerChurchName: "Kanisa la AGAPE Queensland",
+            footerMotto: "Upendo • Imani • Jamii • Matumaini",
+            footerCopyright: "© 2025 Kanisa la AGAPE. Haki zote zimehifadhiwa.",
+            footerAuthor: "Mtaalamu wa Tovuti: Asende Maleunda ✉ ✍"
+        }
+    };
+                function applyLanguage(lang) {
+    for (const id in translations[lang]) {
+        const element = document.getElementById(id);
+        if (element) element.textContent = translations[lang][id];
+    }
+}
+
+document.getElementById("languageSelector").addEventListener("change", function () {
+    const lang = this.value;
+    const langName = this.options[this.selectedIndex].text;
+
+    if (confirm("Change language to " + langName + "?")) {
+        localStorage.setItem("siteLanguage", lang);
+        applyLanguage(lang);
+    } else {
+        this.value = localStorage.getItem("siteLanguage") || "en";
+    }
+});
+
+window.onload = function () {
+    const saved = localStorage.getItem("siteLanguage") || "en";
+    document.getElementById("languageSelector").value = saved;
+    applyLanguage(saved);
+};
+    </script>
 </body>
 </html>
 
